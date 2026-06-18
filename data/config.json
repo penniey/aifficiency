@@ -1,0 +1,77 @@
+{
+  "defaultLens": "coding",
+  "scoring": {
+    "promptShare": 0.3,
+    "useCacheSavings": false,
+    "coverageMin": 2,
+    "costEpsilon": 0.001
+  },
+  "ceilings": {
+    "swe_bench": 100,
+    "aider_polyglot": 100,
+    "design_arena_code": { "eloMin": 1000, "eloMax": 1400 },
+    "design_arena_avg": { "eloMin": 1000, "eloMax": 1400 }
+  },
+  "benchmarks": [
+    {
+      "key": "swe_bench",
+      "label": "SWE-bench Verified",
+      "sourceUrl": "https://www.swebench.com/verified.html",
+      "license": "CC BY-NC 4.0",
+      "credit": "SWE-bench / Princeton NLP"
+    },
+    {
+      "key": "aider_polyglot",
+      "label": "Aider Polyglot",
+      "sourceUrl": "https://aider.chat/docs/leaderboards/",
+      "license": "Apache-2.0",
+      "credit": "Aider"
+    },
+    {
+      "key": "design_arena_code",
+      "label": "Arena (Coding)",
+      "sourceUrl": "https://lmarena.ai/",
+      "license": "Relayed via OpenRouter",
+      "credit": "LM Arena"
+    },
+    {
+      "key": "design_arena_avg",
+      "label": "Arena (Overall)",
+      "sourceUrl": "https://lmarena.ai/",
+      "license": "Relayed via OpenRouter",
+      "credit": "LM Arena"
+    }
+  ],
+  "lenses": [
+    {
+      "key": "coding",
+      "label": "Coding",
+      "description": "Real-world software engineering and code editing.",
+      "weights": {
+        "swe_bench": 0.45,
+        "aider_polyglot": 0.30,
+        "design_arena_code": 0.25
+      }
+    },
+    {
+      "key": "agentic",
+      "label": "Agentic",
+      "description": "Autonomous agents on multi-step coding and tool tasks.",
+      "weights": {
+        "swe_bench": 0.55,
+        "aider_polyglot": 0.20,
+        "design_arena_code": 0.25
+      }
+    },
+    {
+      "key": "general",
+      "label": "General",
+      "description": "Broad intelligence across reasoning and knowledge.",
+      "weights": {
+        "design_arena_avg": 0.55,
+        "swe_bench": 0.25,
+        "aider_polyglot": 0.20
+      }
+    }
+  ]
+}

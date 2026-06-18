@@ -1,0 +1,14 @@
+
+> aifficiency@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3003
+- Network:       http://192.168.68.113:3003
+✓ Ready in 324ms
+
+○ Compiling /compare ...
+ GET /compare 200 in 3.8s (next.js: 3.6s, application-code: 239ms)
+ GET / 200 in 598ms (next.js: 438ms, application-code: 160ms)
+ GET /model/openai-gpt-5-5 200 in 2.0s (next.js: 1812ms, generate-params: 302ms, application-code: 228ms)
+ GET /api/rankings 200 in 299ms (next.js: 276ms, application-code: 23ms)

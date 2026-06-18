@@ -1,0 +1,491 @@
+[
+  {
+    "model": "Gemini 2.0 Pro exp-02-05",
+    "pass_rate_2": 35.6,
+    "date": "Tue Feb 25 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "gpt-4o-mini-2024-07-18",
+    "pass_rate_2": 3.6,
+    "date": "Sat Dec 21 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0.3236,
+    "edit_format": "whole"
+  },
+  {
+    "model": "claude-3-5-sonnet-20241022",
+    "pass_rate_2": 51.6,
+    "date": "Fri Jan 17 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 14.4063,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-4o-2024-11-20",
+    "pass_rate_2": 18.2,
+    "date": "Mon Dec 30 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 6.7351,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-4o-2024-08-06",
+    "pass_rate_2": 23.1,
+    "date": "Mon Dec 30 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 7.0286,
+    "edit_format": "diff"
+  },
+  {
+    "model": "o1-2024-12-17 (high)",
+    "pass_rate_2": 61.7,
+    "date": "Sat Dec 21 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 186.4958,
+    "edit_format": "diff"
+  },
+  {
+    "model": "DeepSeek Chat V2.5",
+    "pass_rate_2": 17.8,
+    "date": "Sat Dec 21 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0.5101,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-3-5-haiku-20241022",
+    "pass_rate_2": 28,
+    "date": "Sat Dec 21 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 6.0583,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Qwen2.5-Coder-32B-Instruct",
+    "pass_rate_2": 8,
+    "date": "Sun Dec 22 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "diff"
+  },
+  {
+    "model": "o1-mini-2024-09-12",
+    "pass_rate_2": 32.9,
+    "date": "Sun Dec 22 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 18.577,
+    "edit_format": "whole"
+  },
+  {
+    "model": "gemini-exp-1206",
+    "pass_rate_2": 38.2,
+    "date": "Sun Dec 22 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "gemini-2.0-flash-exp",
+    "pass_rate_2": 22.2,
+    "date": "Sun Dec 22 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "yi-lightning",
+    "pass_rate_2": 12.9,
+    "date": "Mon Dec 23 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "DeepSeek Chat V3 (prev)",
+    "pass_rate_2": 48.4,
+    "date": "Wed Dec 25 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0.3369,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Qwen2.5-Coder-32B-Instruct",
+    "pass_rate_2": 16.4,
+    "date": "Thu Dec 26 2024 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "Codestral 25.01",
+    "pass_rate_2": 11.1,
+    "date": "Mon Jan 13 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 1.9834,
+    "edit_format": "whole"
+  },
+  {
+    "model": "DeepSeek R1",
+    "pass_rate_2": 56.9,
+    "date": "Mon Jan 20 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 5.4193,
+    "edit_format": "diff"
+  },
+  {
+    "model": "DeepSeek R1 + claude-3-5-sonnet-20241022",
+    "pass_rate_2": 64,
+    "date": "Thu Jan 23 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 13.2933,
+    "edit_format": "architect"
+  },
+  {
+    "model": "qwen-max-2025-01-25",
+    "pass_rate_2": 21.8,
+    "date": "Tue Jan 28 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "edit_format": "diff"
+  },
+  {
+    "model": "o3-mini (medium)",
+    "pass_rate_2": 53.8,
+    "date": "Fri Jan 31 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 8.8599,
+    "edit_format": "diff"
+  },
+  {
+    "model": "o3-mini (high)",
+    "pass_rate_2": 60.4,
+    "date": "Fri Jan 31 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 18.1584,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gemini-2.0-flash-thinking-exp-01-21",
+    "pass_rate_2": 18.2,
+    "date": "Tue Jan 21 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "diff"
+  },
+  {
+    "model": "chatgpt-4o-latest (2025-02-15)",
+    "pass_rate_2": 27.1,
+    "date": "Sat Feb 15 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 14.3703,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-3-7-sonnet-20250219 (no thinking)",
+    "pass_rate_2": 60.4,
+    "date": "Mon Feb 24 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 17.7191,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-3-7-sonnet-20250219 (32k thinking tokens)",
+    "pass_rate_2": 64.9,
+    "date": "Mon Feb 24 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 36.8343,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-4.5-preview",
+    "pass_rate_2": 44.9,
+    "date": "Thu Feb 27 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 183.1802,
+    "edit_format": "diff"
+  },
+  {
+    "model": "QwQ-32B",
+    "pass_rate_2": 20.9,
+    "date": "Thu Mar 06 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "diff"
+  },
+  {
+    "model": "QwQ-32B + Qwen 2.5 Coder Instruct",
+    "pass_rate_2": 26.2,
+    "date": "Fri Mar 07 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "architect"
+  },
+  {
+    "model": "command-a-03-2025-quality",
+    "pass_rate_2": 12,
+    "date": "Fri Mar 14 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "gemma-3-27b-it",
+    "pass_rate_2": 4.9,
+    "date": "Sat Mar 15 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "DeepSeek V3 (0324)",
+    "pass_rate_2": 55.1,
+    "date": "Mon Mar 24 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 1.1164,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Gemini 2.5 Pro Preview 03-25",
+    "pass_rate_2": 72.9,
+    "date": "Sat Apr 12 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0,
+    "edit_format": "diff-fenced"
+  },
+  {
+    "model": "chatgpt-4o-latest (2025-03-29)",
+    "pass_rate_2": 45.3,
+    "date": "Sat Mar 29 2025 01:00:00 GMT+0100 (Central European Standard Time)",
+    "total_cost": 19.7416,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Quasar Alpha",
+    "pass_rate_2": 54.7,
+    "date": "Fri Apr 04 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Llama 4 Maverick",
+    "pass_rate_2": 15.6,
+    "date": "Sun Apr 06 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "Grok 3 Beta",
+    "pass_rate_2": 53.3,
+    "date": "Thu Apr 10 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 11.0338,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Grok 3 Mini Beta (low)",
+    "pass_rate_2": 34.7,
+    "date": "Thu Apr 10 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0.7856,
+    "edit_format": "whole"
+  },
+  {
+    "model": "Grok 3 Mini Beta (high)",
+    "pass_rate_2": 49.3,
+    "date": "Thu Apr 10 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0.7346,
+    "edit_format": "whole"
+  },
+  {
+    "model": "Optimus Alpha",
+    "pass_rate_2": 52.9,
+    "date": "Thu Apr 10 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-4.1",
+    "pass_rate_2": 52.4,
+    "date": "Mon Apr 14 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 9.8556,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-4.1-mini",
+    "pass_rate_2": 32.4,
+    "date": "Mon Apr 14 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 1.9918,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-4.1-nano",
+    "pass_rate_2": 8.9,
+    "date": "Mon Apr 14 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0.4281,
+    "edit_format": "whole"
+  },
+  {
+    "model": "o4-mini (high)",
+    "pass_rate_2": 72,
+    "date": "Wed Apr 16 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 19.6399,
+    "edit_format": "diff"
+  },
+  {
+    "model": "openhands-lm-32b-v0.1",
+    "pass_rate_2": 10.2,
+    "date": "Sat Apr 19 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0,
+    "edit_format": "whole"
+  },
+  {
+    "model": "gemini-2.5-flash-preview-04-17 (default)",
+    "pass_rate_2": 47.1,
+    "date": "Sun Apr 20 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 1.8451,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Gemini 2.5 Pro Preview 05-06",
+    "pass_rate_2": 76.9,
+    "date": "Wed May 07 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 37.4104,
+    "edit_format": "diff-fenced"
+  },
+  {
+    "model": "Qwen3 32B",
+    "pass_rate_2": 40,
+    "date": "Thu May 08 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0.7603,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Qwen3 235B A22B diff, no think, Alibaba API",
+    "pass_rate_2": 59.6,
+    "date": "Fri May 09 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-sonnet-4-20250514 (no thinking)",
+    "pass_rate_2": 56.4,
+    "date": "Sat May 24 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 15.8155,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-sonnet-4-20250514 (32k thinking)",
+    "pass_rate_2": 61.3,
+    "date": "Sat May 24 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 26.5755,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-opus-4-20250514 (no think)",
+    "pass_rate_2": 70.7,
+    "date": "Sun May 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 68.6253,
+    "edit_format": "diff"
+  },
+  {
+    "model": "claude-opus-4-20250514 (32k thinking)",
+    "pass_rate_2": 72,
+    "date": "Sun May 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 65.7484,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gemini-2.5-flash-preview-05-20 (no think)",
+    "pass_rate_2": 44,
+    "date": "Mon May 26 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 1.1354,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gemini-2.5-flash-preview-05-20 (24k think)",
+    "pass_rate_2": 55.1,
+    "date": "Sun May 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 8.5625,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gemini-2.5-pro-preview-06-05 (default think)",
+    "pass_rate_2": 79.1,
+    "date": "Fri Jun 06 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 45.5961,
+    "edit_format": "diff-fenced"
+  },
+  {
+    "model": "gemini-2.5-pro-preview-06-05 (32k think)",
+    "pass_rate_2": 83.1,
+    "date": "Fri Jun 06 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 49.8822,
+    "edit_format": "diff-fenced"
+  },
+  {
+    "model": "DeepSeek R1 (0528)",
+    "pass_rate_2": 71.4,
+    "date": "Fri Jun 06 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 4.8016,
+    "edit_format": "diff"
+  },
+  {
+    "model": "o3 (high)",
+    "pass_rate_2": 81.3,
+    "date": "Wed Jun 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "high",
+    "total_cost": 21.2259,
+    "edit_format": "diff"
+  },
+  {
+    "model": "o3",
+    "pass_rate_2": 76.9,
+    "date": "Wed Jun 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 13.7517,
+    "edit_format": "diff"
+  },
+  {
+    "model": "o3 (high) + gpt-4.1",
+    "pass_rate_2": 78.2,
+    "date": "Fri Jun 27 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "high",
+    "total_cost": 17.5518,
+    "edit_format": "architect"
+  },
+  {
+    "model": "o3-pro (high)",
+    "pass_rate_2": 84.9,
+    "date": "Sat Jun 28 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "high",
+    "total_cost": 146.3249,
+    "edit_format": "diff"
+  },
+  {
+    "model": "grok-4 (high)",
+    "pass_rate_2": 79.6,
+    "date": "Fri Jul 11 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "high",
+    "total_cost": 59.6182,
+    "edit_format": "diff"
+  },
+  {
+    "model": "Kimi K2",
+    "pass_rate_2": 59.1,
+    "date": "Thu Jul 17 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 1.2357,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-oss-120b (high)",
+    "pass_rate_2": 41.8,
+    "date": "Wed Aug 06 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0.7406,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-5 (high)",
+    "pass_rate_2": 88,
+    "date": "Sat Aug 23 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "high",
+    "total_cost": 29.0829,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-5 (medium)",
+    "pass_rate_2": 86.7,
+    "date": "Mon Aug 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "medium",
+    "total_cost": 17.693,
+    "edit_format": "diff"
+  },
+  {
+    "model": "gpt-5 (low)",
+    "pass_rate_2": 81.3,
+    "date": "Mon Aug 25 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "reasoning_effort": "low",
+    "total_cost": 10.3713,
+    "edit_format": "diff"
+  },
+  {
+    "model": "DeepSeek-V3.2-Exp (Reasoner)",
+    "pass_rate_2": 74.2,
+    "date": "Fri Oct 03 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 1.3045,
+    "edit_format": "diff"
+  },
+  {
+    "model": "DeepSeek-V3.2-Exp (Chat)",
+    "pass_rate_2": 70.2,
+    "date": "Fri Oct 03 2025 02:00:00 GMT+0200 (Central European Summer Time)",
+    "total_cost": 0.8756,
+    "edit_format": "diff"
+  }
+]
