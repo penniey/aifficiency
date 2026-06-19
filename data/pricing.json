@@ -22,9 +22,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 1.4,
-    "completion": 4.4,
-    "inputCacheRead": 0.26,
+    "prompt": 1.2,
+    "completion": 4.1,
+    "inputCacheRead": 0.2,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -227,11 +227,25 @@
     "contextLength": 262144,
     "isFree": true
   },
+  "poolside/laguna-xs.2": {
+    "prompt": 0.1,
+    "completion": 0.2,
+    "inputCacheRead": 0.05,
+    "contextLength": 262144,
+    "isFree": false
+  },
   "poolside/laguna-m.1:free": {
     "prompt": 0,
     "completion": 0,
     "contextLength": 262144,
     "isFree": true
+  },
+  "poolside/laguna-m.1": {
+    "prompt": 0.2,
+    "completion": 0.4,
+    "inputCacheRead": 0.1,
+    "contextLength": 262144,
+    "isFree": false
   },
   "~anthropic/claude-haiku-latest": {
     "prompt": 1,
@@ -260,9 +274,9 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 0.68,
-    "completion": 3.41,
-    "inputCacheRead": 0.34,
+    "prompt": 0.67,
+    "completion": 3.5,
+    "inputCacheRead": 0.2,
     "contextLength": 262144,
     "isFree": false
   },
@@ -307,9 +321,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-35b-a3b": {
-    "prompt": 0.15,
+    "prompt": 0.14,
     "completion": 1,
-    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -414,9 +427,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.68,
-    "completion": 3.41,
-    "inputCacheRead": 0.34,
+    "prompt": 0.67,
+    "completion": 3.5,
+    "inputCacheRead": 0.2,
     "contextLength": 262144,
     "isFree": false
   },
@@ -516,7 +529,7 @@
     "prompt": 0.3,
     "completion": 1.2,
     "inputCacheRead": 0.06,
-    "contextLength": 262144,
+    "contextLength": 256000,
     "isFree": false
   },
   "rekaai/reka-edge": {
@@ -583,7 +596,7 @@
   "qwen/qwen3.5-9b": {
     "prompt": 0.1,
     "completion": 0.15,
-    "contextLength": 256000,
+    "contextLength": 262144,
     "isFree": false
   },
   "openai/gpt-5.4-pro": {
@@ -641,7 +654,6 @@
   "qwen/qwen3.5-35b-a3b": {
     "prompt": 0.14,
     "completion": 1,
-    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1040,7 +1052,7 @@
   "openai/gpt-5.1-chat": {
     "prompt": 1.25,
     "completion": 10,
-    "inputCacheRead": 0.125,
+    "inputCacheRead": 0.13,
     "webSearch": 10000,
     "contextLength": 128000,
     "isFree": false
@@ -1064,7 +1076,6 @@
   "moonshotai/kimi-k2-thinking": {
     "prompt": 0.6,
     "completion": 2.5,
-    "inputCacheRead": 0.6,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1092,7 +1103,7 @@
   "openai/gpt-oss-safeguard-20b": {
     "prompt": 0.075,
     "completion": 0.3,
-    "inputCacheRead": 0.037,
+    "inputCacheRead": 0.0375,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1419,7 +1430,7 @@
   "openai/gpt-5-mini": {
     "prompt": 0.25,
     "completion": 2,
-    "inputCacheRead": 0.03,
+    "inputCacheRead": 0.025,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -2077,13 +2088,13 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "inflection/inflection-3-pi": {
+  "inflection/inflection-3-productivity": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
     "isFree": false
   },
-  "inflection/inflection-3-productivity": {
+  "inflection/inflection-3-pi": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
@@ -2095,12 +2106,6 @@
     "contextLength": 32768,
     "isFree": false
   },
-  "meta-llama/llama-3.2-1b-instruct": {
-    "prompt": 0.027,
-    "completion": 0.201,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "meta-llama/llama-3.2-3b-instruct:free": {
     "prompt": 0,
     "completion": 0,
@@ -2110,6 +2115,12 @@
   "meta-llama/llama-3.2-3b-instruct": {
     "prompt": 0.0509,
     "completion": 0.335,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "meta-llama/llama-3.2-1b-instruct": {
+    "prompt": 0.027,
+    "completion": 0.201,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2125,15 +2136,15 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "cohere/command-r-08-2024": {
-    "prompt": 0.15,
-    "completion": 0.6,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "cohere/command-r-plus-08-2024": {
     "prompt": 2.5,
     "completion": 10,
+    "contextLength": 128000,
+    "isFree": false
+  },
+  "cohere/command-r-08-2024": {
+    "prompt": 0.15,
+    "completion": 0.6,
     "contextLength": 128000,
     "isFree": false
   },
@@ -2174,15 +2185,15 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "meta-llama/llama-3.1-70b-instruct": {
-    "prompt": 0.4,
-    "completion": 0.4,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "meta-llama/llama-3.1-8b-instruct": {
     "prompt": 0.02,
     "completion": 0.03,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "meta-llama/llama-3.1-70b-instruct": {
+    "prompt": 0.4,
+    "completion": 0.4,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2192,14 +2203,14 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "openai/gpt-4o-mini": {
+  "openai/gpt-4o-mini-2024-07-18": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-4o-mini-2024-07-18": {
+  "openai/gpt-4o-mini": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
@@ -2212,28 +2223,27 @@
     "contextLength": 8192,
     "isFree": false
   },
-  "openai/gpt-4o": {
-    "prompt": 2.5,
-    "completion": 10,
-    "inputCacheRead": 1.25,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "openai/gpt-4o-2024-05-13": {
     "prompt": 5,
     "completion": 15,
     "contextLength": 128000,
     "isFree": false
   },
-  "meta-llama/llama-3-70b-instruct": {
-    "prompt": 0.51,
-    "completion": 0.74,
-    "contextLength": 8192,
+  "openai/gpt-4o": {
+    "prompt": 2.5,
+    "completion": 10,
+    "contextLength": 128000,
     "isFree": false
   },
   "meta-llama/llama-3-8b-instruct": {
     "prompt": 0.14,
     "completion": 0.14,
+    "contextLength": 8192,
+    "isFree": false
+  },
+  "meta-llama/llama-3-70b-instruct": {
+    "prompt": 0.51,
+    "completion": 0.74,
     "contextLength": 8192,
     "isFree": false
   },
@@ -2272,16 +2282,16 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-3.5-turbo-0613": {
-    "prompt": 1,
-    "completion": 2,
-    "contextLength": 4095,
-    "isFree": false
-  },
   "openai/gpt-4-turbo-preview": {
     "prompt": 10,
     "completion": 30,
     "contextLength": 128000,
+    "isFree": false
+  },
+  "openai/gpt-3.5-turbo-0613": {
+    "prompt": 1,
+    "completion": 2,
+    "contextLength": 4095,
     "isFree": false
   },
   "openrouter/auto": {
