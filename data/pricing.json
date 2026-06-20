@@ -35,9 +35,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.74,
-    "completion": 3.5,
-    "inputCacheRead": 0.15,
+    "prompt": 0.612,
+    "completion": 3.069,
+    "inputCacheRead": 0.1296,
     "contextLength": 262144,
     "isFree": false
   },
@@ -274,9 +274,9 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 0.67,
+    "prompt": 0.66,
     "completion": 3.5,
-    "inputCacheRead": 0.2,
+    "inputCacheRead": 0.33,
     "contextLength": 262144,
     "isFree": false
   },
@@ -376,9 +376,9 @@
     "isFree": false
   },
   "tencent/hy3-preview": {
-    "prompt": 0.066,
-    "completion": 0.26,
-    "inputCacheRead": 0.029,
+    "prompt": 0.063,
+    "completion": 0.21,
+    "inputCacheRead": 0.021,
     "contextLength": 262144,
     "isFree": false
   },
@@ -427,9 +427,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.67,
+    "prompt": 0.66,
     "completion": 3.5,
-    "inputCacheRead": 0.2,
+    "inputCacheRead": 0.33,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2238,12 +2238,6 @@
   "meta-llama/llama-3-8b-instruct": {
     "prompt": 0.14,
     "completion": 0.14,
-    "contextLength": 8192,
-    "isFree": false
-  },
-  "meta-llama/llama-3-70b-instruct": {
-    "prompt": 0.51,
-    "completion": 0.74,
     "contextLength": 8192,
     "isFree": false
   },
