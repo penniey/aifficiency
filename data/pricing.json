@@ -454,7 +454,7 @@
   "z-ai/glm-5.1": {
     "prompt": 0.98,
     "completion": 3.08,
-    "inputCacheRead": 0.182,
+    "inputCacheRead": 0.49,
     "contextLength": 202752,
     "isFree": false
   },
@@ -491,8 +491,8 @@
     "isFree": false
   },
   "arcee-ai/trinity-large-thinking": {
-    "prompt": 0.22,
-    "completion": 0.85,
+    "prompt": 0.25,
+    "completion": 0.8,
     "inputCacheRead": 0.06,
     "contextLength": 262144,
     "isFree": false
