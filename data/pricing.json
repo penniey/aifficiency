@@ -22,9 +22,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 1.2,
-    "completion": 4.1,
-    "inputCacheRead": 0.2,
+    "prompt": 1,
+    "completion": 4,
+    "inputCacheRead": 0.18,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -64,6 +64,13 @@
     "completion": 0,
     "contextLength": 262144,
     "isFree": true
+  },
+  "nex-agi/nex-n2-pro": {
+    "prompt": 0.5,
+    "completion": 2.5,
+    "inputCacheRead": 0.25,
+    "contextLength": 262144,
+    "isFree": false
   },
   "nvidia/nemotron-3.5-content-safety:free": {
     "prompt": 0,
@@ -275,8 +282,8 @@
   },
   "~moonshotai/kimi-latest": {
     "prompt": 0.66,
-    "completion": 3.5,
-    "inputCacheRead": 0.33,
+    "completion": 3.41,
+    "inputCacheRead": 0.144,
     "contextLength": 262144,
     "isFree": false
   },
@@ -428,8 +435,8 @@
   },
   "moonshotai/kimi-k2.6": {
     "prompt": 0.66,
-    "completion": 3.5,
-    "inputCacheRead": 0.33,
+    "completion": 3.41,
+    "inputCacheRead": 0.144,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2065,15 +2072,6 @@
     "prompt": 0.4,
     "completion": 0.4,
     "contextLength": 32768,
-    "isFree": false
-  },
-  "anthropic/claude-3.5-haiku": {
-    "prompt": 0.8,
-    "completion": 4,
-    "inputCacheRead": 0.08,
-    "inputCacheWrite": 1,
-    "webSearch": 10000,
-    "contextLength": 200000,
     "isFree": false
   },
   "anthracite-org/magnum-v4-72b": {
