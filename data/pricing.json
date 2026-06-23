@@ -22,9 +22,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 1,
-    "completion": 4,
-    "inputCacheRead": 0.18,
+    "prompt": 0.98,
+    "completion": 3.08,
+    "inputCacheRead": 0.182,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -35,9 +35,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.612,
-    "completion": 3.069,
-    "inputCacheRead": 0.1296,
+    "prompt": 0.68,
+    "completion": 3.41,
+    "inputCacheRead": 0.144,
     "contextLength": 262144,
     "isFree": false
   },
@@ -59,16 +59,10 @@
     "contextLength": 1000000,
     "isFree": false
   },
-  "nex-agi/nex-n2-pro:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
-  },
   "nex-agi/nex-n2-pro": {
-    "prompt": 0.5,
-    "completion": 2.5,
-    "inputCacheRead": 0.25,
+    "prompt": 0.25,
+    "completion": 1,
+    "inputCacheRead": 0.025,
     "contextLength": 262144,
     "isFree": false
   },
@@ -495,6 +489,13 @@
     "completion": 1.95,
     "inputCacheWrite": 0.40625,
     "contextLength": 1000000,
+    "isFree": false
+  },
+  "z-ai/glm-5v-turbo": {
+    "prompt": 1.2,
+    "completion": 4,
+    "inputCacheRead": 0.24,
+    "contextLength": 202752,
     "isFree": false
   },
   "arcee-ai/trinity-large-thinking": {
