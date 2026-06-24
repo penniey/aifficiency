@@ -1,4 +1,12 @@
 {
+  "sakana/fugu-ultra": {
+    "prompt": 5,
+    "completion": 30,
+    "inputCacheRead": 0.5,
+    "webSearch": 10000,
+    "contextLength": 1000000,
+    "isFree": false
+  },
   "google/gemini-3.1-flash-image": {
     "prompt": 0.5,
     "completion": 3,
@@ -22,9 +30,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.98,
-    "completion": 3.08,
-    "inputCacheRead": 0.182,
+    "prompt": 0.95,
+    "completion": 3,
+    "inputCacheRead": 0.18,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -35,9 +43,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.68,
-    "completion": 3.41,
-    "inputCacheRead": 0.144,
+    "prompt": 0.74,
+    "completion": 3.5,
+    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -391,9 +399,8 @@
     "isFree": false
   },
   "xiaomi/mimo-v2.5": {
-    "prompt": 0.14,
+    "prompt": 0.105,
     "completion": 0.28,
-    "inputCacheRead": 0.0028,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -547,9 +554,8 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.25,
-    "completion": 1,
-    "inputCacheRead": 0.05,
+    "prompt": 0.24,
+    "completion": 0.96,
     "contextLength": 204800,
     "isFree": false
   },
@@ -947,12 +953,6 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "essentialai/rnj-1-instruct": {
-    "prompt": 0.15,
-    "completion": 0.15,
-    "contextLength": 32768,
-    "isFree": false
-  },
   "openrouter/bodybuilder": {
     "prompt": -1000000,
     "completion": -1000000,
@@ -1010,12 +1010,6 @@
   "deepseek/deepseek-v3.2": {
     "prompt": 0.2288,
     "completion": 0.3432,
-    "contextLength": 131072,
-    "isFree": false
-  },
-  "prime-intellect/intellect-3": {
-    "prompt": 0.2,
-    "completion": 1.1,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1982,7 +1976,7 @@
     "isFree": false
   },
   "microsoft/phi-4": {
-    "prompt": 0.065,
+    "prompt": 0.07,
     "completion": 0.14,
     "contextLength": 16384,
     "isFree": false
@@ -2100,8 +2094,8 @@
     "isFree": false
   },
   "thedrummer/rocinante-12b": {
-    "prompt": 0.17,
-    "completion": 0.43,
+    "prompt": 0.25,
+    "completion": 0.5,
     "contextLength": 32768,
     "isFree": false
   },
