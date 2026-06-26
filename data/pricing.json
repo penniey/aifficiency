@@ -554,8 +554,8 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.24,
-    "completion": 0.96,
+    "prompt": 0.18,
+    "completion": 0.72,
     "contextLength": 204800,
     "isFree": false
   },
@@ -596,8 +596,8 @@
     "isFree": true
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.09,
-    "completion": 0.45,
+    "prompt": 0.085,
+    "completion": 0.4,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -751,9 +751,8 @@
     "isFree": false
   },
   "minimax/minimax-m2.5": {
-    "prompt": 0.15,
-    "completion": 0.9,
-    "inputCacheRead": 0.05,
+    "prompt": 0.12,
+    "completion": 0.48,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1011,6 +1010,7 @@
   "deepseek/deepseek-v3.2": {
     "prompt": 0.2288,
     "completion": 0.3432,
+    "inputCacheRead": 0.02288,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1454,8 +1454,8 @@
     "isFree": true
   },
   "openai/gpt-oss-120b": {
-    "prompt": 0.039,
-    "completion": 0.18,
+    "prompt": 0.03,
+    "completion": 0.15,
     "contextLength": 131072,
     "isFree": false
   },
