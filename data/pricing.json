@@ -343,8 +343,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.2885,
-    "completion": 2.65,
+    "prompt": 0.2596,
+    "completion": 2.385,
     "contextLength": 262144,
     "isFree": false
   },
