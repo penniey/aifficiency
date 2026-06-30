@@ -30,7 +30,7 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.95,
+    "prompt": 0.94,
     "completion": 3,
     "inputCacheRead": 0.18,
     "contextLength": 1048576,
@@ -450,19 +450,9 @@
     "contextLength": 1000000,
     "isFree": false
   },
-  "anthropic/claude-opus-4.6-fast": {
-    "prompt": 30,
-    "completion": 150,
-    "inputCacheRead": 3,
-    "inputCacheWrite": 37.5,
-    "webSearch": 10000,
-    "contextLength": 1000000,
-    "isFree": false
-  },
   "z-ai/glm-5.1": {
-    "prompt": 0.98,
-    "completion": 3.08,
-    "inputCacheRead": 0.182,
+    "prompt": 0.975,
+    "completion": 4.3,
     "contextLength": 202752,
     "isFree": false
   },
@@ -792,9 +782,8 @@
     "isFree": true
   },
   "stepfun/step-3.5-flash": {
-    "prompt": 0.09,
+    "prompt": 0.1,
     "completion": 0.3,
-    "inputCacheRead": 0.02,
     "contextLength": 262144,
     "isFree": false
   },
