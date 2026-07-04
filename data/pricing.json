@@ -59,9 +59,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.93,
-    "completion": 3,
-    "inputCacheRead": 0.18,
+    "prompt": 0.9086,
+    "completion": 2.8556,
+    "inputCacheRead": 0.16874,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -368,6 +368,7 @@
   "qwen/qwen3.6-27b": {
     "prompt": 0.285,
     "completion": 2.4,
+    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -610,8 +611,8 @@
     "isFree": true
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.085,
-    "completion": 0.4,
+    "prompt": 0.08,
+    "completion": 0.45,
     "contextLength": 1000000,
     "isFree": false
   },
