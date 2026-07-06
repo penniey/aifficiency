@@ -59,9 +59,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.728,
-    "completion": 2.288,
-    "inputCacheRead": 0.1352,
+    "prompt": 0.9086,
+    "completion": 2.8556,
+    "inputCacheRead": 0.16874,
     "contextLength": 1048576,
     "isFree": false
   },
