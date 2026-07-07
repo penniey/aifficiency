@@ -1,4 +1,17 @@
 {
+  "tencent/hy3:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 262144,
+    "isFree": true
+  },
+  "tencent/hy3": {
+    "prompt": 0.2,
+    "completion": 0.8,
+    "inputCacheRead": 0.5,
+    "contextLength": 262144,
+    "isFree": false
+  },
   "poolside/laguna-xs-2.1:free": {
     "prompt": 0,
     "completion": 0,
@@ -26,6 +39,13 @@
     "completion": 1.5,
     "webSearch": 14000,
     "contextLength": 65536,
+    "isFree": false
+  },
+  "nex-agi/nex-n2-mini": {
+    "prompt": 0.025,
+    "completion": 0.1,
+    "inputCacheRead": 0.0025,
+    "contextLength": 262144,
     "isFree": false
   },
   "sakana/fugu-ultra": {
@@ -59,9 +79,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.9086,
-    "completion": 2.8556,
-    "inputCacheRead": 0.16874,
+    "prompt": 0.9,
+    "completion": 2.86,
+    "inputCacheRead": 0.17,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -425,6 +445,7 @@
   "xiaomi/mimo-v2.5": {
     "prompt": 0.105,
     "completion": 0.28,
+    "inputCacheRead": 0.028,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -762,6 +783,7 @@
   "qwen/qwen3.5-397b-a17b": {
     "prompt": 0.385,
     "completion": 2.45,
+    "inputCacheRead": 0.111,
     "contextLength": 256000,
     "isFree": false
   },
@@ -815,6 +837,7 @@
   "moonshotai/kimi-k2.5": {
     "prompt": 0.375,
     "completion": 2.025,
+    "inputCacheRead": 0.203,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2086,13 +2109,13 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "inflection/inflection-3-productivity": {
+  "inflection/inflection-3-pi": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
     "isFree": false
   },
-  "inflection/inflection-3-pi": {
+  "inflection/inflection-3-productivity": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
@@ -2111,20 +2134,20 @@
     "isFree": true
   },
   "meta-llama/llama-3.2-3b-instruct": {
-    "prompt": 0.0509,
-    "completion": 0.335,
-    "contextLength": 131072,
-    "isFree": false
-  },
-  "meta-llama/llama-3.2-1b-instruct": {
-    "prompt": 0.027,
-    "completion": 0.201,
+    "prompt": 0.05,
+    "completion": 0.33,
     "contextLength": 131072,
     "isFree": false
   },
   "meta-llama/llama-3.2-11b-vision-instruct": {
     "prompt": 0.345,
     "completion": 0.345,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "meta-llama/llama-3.2-1b-instruct": {
+    "prompt": 0.027,
+    "completion": 0.201,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2201,14 +2224,14 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "openai/gpt-4o-mini": {
+  "openai/gpt-4o-mini-2024-07-18": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-4o-mini-2024-07-18": {
+  "openai/gpt-4o-mini": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
@@ -2274,16 +2297,16 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-3.5-turbo-0613": {
-    "prompt": 1,
-    "completion": 2,
-    "contextLength": 4095,
-    "isFree": false
-  },
   "openai/gpt-4-turbo-preview": {
     "prompt": 10,
     "completion": 30,
     "contextLength": 128000,
+    "isFree": false
+  },
+  "openai/gpt-3.5-turbo-0613": {
+    "prompt": 1,
+    "completion": 2,
+    "contextLength": 4095,
     "isFree": false
   },
   "openrouter/auto": {
