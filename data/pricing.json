@@ -1,4 +1,20 @@
 {
+  "x-ai/grok-4.5": {
+    "prompt": 2,
+    "completion": 6,
+    "inputCacheRead": 0.5,
+    "webSearch": 5000,
+    "contextLength": 500000,
+    "isFree": false
+  },
+  "~x-ai/grok-latest": {
+    "prompt": 2,
+    "completion": 6,
+    "inputCacheRead": 0.5,
+    "webSearch": 5000,
+    "contextLength": 500000,
+    "isFree": false
+  },
   "aion-labs/aion-3.0-mini": {
     "prompt": 0.7,
     "completion": 1.4,
@@ -20,9 +36,9 @@
     "isFree": true
   },
   "tencent/hy3": {
-    "prompt": 0.2,
-    "completion": 0.8,
-    "inputCacheRead": 0.5,
+    "prompt": 0.14,
+    "completion": 0.58,
+    "inputCacheRead": 0.035,
     "contextLength": 262144,
     "isFree": false
   },
@@ -340,7 +356,7 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 0.66,
+    "prompt": 0.65,
     "completion": 3.41,
     "inputCacheRead": 0.14,
     "contextLength": 262144,
@@ -494,7 +510,7 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.66,
+    "prompt": 0.65,
     "completion": 3.41,
     "inputCacheRead": 0.14,
     "contextLength": 262144,
@@ -738,12 +754,6 @@
     "prompt": 0.065,
     "completion": 0.26,
     "contextLength": 1000000,
-    "isFree": false
-  },
-  "liquid/lfm-2-24b-a2b": {
-    "prompt": 0.03,
-    "completion": 0.12,
-    "contextLength": 128000,
     "isFree": false
   },
   "google/gemini-3.1-pro-preview-customtools": {
@@ -1595,12 +1605,6 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "switchpoint/router": {
-    "prompt": 0.85,
-    "completion": 3.4,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "moonshotai/kimi-k2": {
     "prompt": 0.57,
     "completion": 2.3,
@@ -2111,13 +2115,13 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "inflection/inflection-3-productivity": {
+  "inflection/inflection-3-pi": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
     "isFree": false
   },
-  "inflection/inflection-3-pi": {
+  "inflection/inflection-3-productivity": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
@@ -2129,12 +2133,6 @@
     "contextLength": 65536,
     "isFree": false
   },
-  "meta-llama/llama-3.2-1b-instruct": {
-    "prompt": 0.027,
-    "completion": 0.201,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "meta-llama/llama-3.2-3b-instruct:free": {
     "prompt": 0,
     "completion": 0,
@@ -2144,6 +2142,12 @@
   "meta-llama/llama-3.2-3b-instruct": {
     "prompt": 0.05,
     "completion": 0.33,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "meta-llama/llama-3.2-1b-instruct": {
+    "prompt": 0.027,
+    "completion": 0.201,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2208,15 +2212,15 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "meta-llama/llama-3.1-70b-instruct": {
-    "prompt": 0.4,
-    "completion": 0.4,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "meta-llama/llama-3.1-8b-instruct": {
     "prompt": 0.02,
     "completion": 0.03,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "meta-llama/llama-3.1-70b-instruct": {
+    "prompt": 0.4,
+    "completion": 0.4,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2226,14 +2230,14 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "openai/gpt-4o-mini": {
+  "openai/gpt-4o-mini-2024-07-18": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-4o-mini-2024-07-18": {
+  "openai/gpt-4o-mini": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
@@ -2347,16 +2351,16 @@
     "contextLength": 4096,
     "isFree": false
   },
-  "openai/gpt-3.5-turbo": {
-    "prompt": 0.5,
-    "completion": 1.5,
-    "contextLength": 16385,
-    "isFree": false
-  },
   "openai/gpt-4": {
     "prompt": 30,
     "completion": 60,
     "contextLength": 8191,
+    "isFree": false
+  },
+  "openai/gpt-3.5-turbo": {
+    "prompt": 0.5,
+    "completion": 1.5,
+    "contextLength": 16385,
     "isFree": false
   }
 }
