@@ -163,9 +163,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.77,
-    "completion": 2.42,
-    "inputCacheRead": 0.143,
+    "prompt": 0.406,
+    "completion": 1.276,
+    "inputCacheRead": 0.0754,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -177,8 +177,8 @@
   },
   "moonshotai/kimi-k2.7-code": {
     "prompt": 0.72,
-    "completion": 3.49,
-    "inputCacheRead": 0.159,
+    "completion": 3.5,
+    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -487,9 +487,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.09,
-    "completion": 0.18,
-    "inputCacheRead": 0.018,
+    "prompt": 0.077,
+    "completion": 0.154,
+    "inputCacheRead": 0.0154,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1103,12 +1103,6 @@
     "completion": 1.5,
     "inputCacheRead": 0.05,
     "contextLength": 262144,
-    "isFree": false
-  },
-  "arcee-ai/trinity-mini": {
-    "prompt": 0.045,
-    "completion": 0.15,
-    "contextLength": 131072,
     "isFree": false
   },
   "deepseek/deepseek-v3.2": {
@@ -2300,12 +2294,6 @@
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 128000,
-    "isFree": false
-  },
-  "meta-llama/llama-3-8b-instruct": {
-    "prompt": 0.14,
-    "completion": 0.14,
-    "contextLength": 8192,
     "isFree": false
   },
   "mistralai/mixtral-8x22b-instruct": {
