@@ -163,9 +163,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.406,
-    "completion": 1.276,
-    "inputCacheRead": 0.0754,
+    "prompt": 0.42,
+    "completion": 1.32,
+    "inputCacheRead": 0.078,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1990,9 +1990,8 @@
     "isFree": false
   },
   "qwen/qwen2.5-vl-72b-instruct": {
-    "prompt": 0.8,
-    "completion": 1,
-    "inputCacheRead": 0.4,
+    "prompt": 0.25,
+    "completion": 0.75,
     "contextLength": 131072,
     "isFree": false
   },
