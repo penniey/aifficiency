@@ -163,9 +163,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.42,
-    "completion": 1.32,
-    "inputCacheRead": 0.078,
+    "prompt": 0.93,
+    "completion": 3,
+    "inputCacheRead": 0.18,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -176,9 +176,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.72,
-    "completion": 3.5,
-    "inputCacheRead": 0.15,
+    "prompt": 0.719,
+    "completion": 3.49,
+    "inputCacheRead": 0.149,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1322,9 +1322,9 @@
   },
   "z-ai/glm-4.6": {
     "prompt": 0.43,
-    "completion": 1.74,
+    "completion": 1.75,
     "inputCacheRead": 0.08,
-    "contextLength": 202752,
+    "contextLength": 200000,
     "isFree": false
   },
   "anthropic/claude-sonnet-4.5": {
@@ -1629,7 +1629,7 @@
   },
   "qwen/qwen3-235b-a22b-2507": {
     "prompt": 0.09,
-    "completion": 0.1,
+    "completion": 0.55,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1865,8 +1865,8 @@
     "isFree": false
   },
   "meta-llama/llama-4-maverick": {
-    "prompt": 0.15,
-    "completion": 0.6,
+    "prompt": 0.2,
+    "completion": 0.8,
     "contextLength": 1048576,
     "isFree": false
   },
