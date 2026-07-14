@@ -1,4 +1,18 @@
 {
+  "kwaipilot/kat-coder-air-v2.5": {
+    "prompt": 0.15,
+    "completion": 0.6,
+    "inputCacheRead": 0.03,
+    "contextLength": 256000,
+    "isFree": false
+  },
+  "kwaipilot/kat-coder-pro-v2.5": {
+    "prompt": 0.74,
+    "completion": 2.96,
+    "inputCacheRead": 0.15,
+    "contextLength": 256000,
+    "isFree": false
+  },
   "openai/gpt-5.6-luna-pro": {
     "prompt": 1,
     "completion": 6,
@@ -83,12 +97,6 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "tencent/hy3:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
-  },
   "tencent/hy3": {
     "prompt": 0.14,
     "completion": 0.58,
@@ -96,7 +104,7 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "poolside/laguna-xs-2.1:free": {
+  "tencent/hy3:free": {
     "prompt": 0,
     "completion": 0,
     "contextLength": 262144,
@@ -108,6 +116,12 @@
     "inputCacheRead": 0.03,
     "contextLength": 262144,
     "isFree": false
+  },
+  "poolside/laguna-xs-2.1:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 262144,
+    "isFree": true
   },
   "anthropic/claude-sonnet-5": {
     "prompt": 2,
@@ -163,9 +177,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.93,
-    "completion": 3,
-    "inputCacheRead": 0.18,
+    "prompt": 0.9282,
+    "completion": 2.9172,
+    "inputCacheRead": 0.17238,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -213,18 +227,18 @@
     "contextLength": 128000,
     "isFree": true
   },
-  "nvidia/nemotron-3-ultra-550b-a55b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 1000000,
-    "isFree": true
-  },
   "nvidia/nemotron-3-ultra-550b-a55b": {
     "prompt": 0.5,
     "completion": 2.2,
     "inputCacheRead": 0.1,
     "contextLength": 1000000,
     "isFree": false
+  },
+  "nvidia/nemotron-3-ultra-550b-a55b:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 1000000,
+    "isFree": true
   },
   "qwen/qwen3.7-plus": {
     "prompt": 0.32,
@@ -357,18 +371,18 @@
     "contextLength": 256000,
     "isFree": true
   },
-  "poolside/laguna-m.1:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
-  },
   "poolside/laguna-m.1": {
     "prompt": 0.2,
     "completion": 0.4,
     "inputCacheRead": 0.1,
     "contextLength": 262144,
     "isFree": false
+  },
+  "poolside/laguna-m.1:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 262144,
+    "isFree": true
   },
   "~anthropic/claude-haiku-latest": {
     "prompt": 1,
@@ -458,9 +472,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.285,
+    "prompt": 0.289,
     "completion": 2.4,
-    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -487,9 +500,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.077,
-    "completion": 0.154,
-    "inputCacheRead": 0.0154,
+    "prompt": 0.09,
+    "completion": 0.18,
+    "inputCacheRead": 0.018,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -574,15 +587,21 @@
     "contextLength": 202752,
     "isFree": false
   },
+  "google/gemma-4-26b-a4b-it": {
+    "prompt": 0.06,
+    "completion": 0.33,
+    "contextLength": 262144,
+    "isFree": false
+  },
   "google/gemma-4-26b-a4b-it:free": {
     "prompt": 0,
     "completion": 0,
     "contextLength": 262144,
     "isFree": true
   },
-  "google/gemma-4-26b-a4b-it": {
+  "google/gemma-4-31b-it": {
     "prompt": 0.06,
-    "completion": 0.33,
+    "completion": 0.35,
     "contextLength": 262144,
     "isFree": false
   },
@@ -591,13 +610,6 @@
     "completion": 0,
     "contextLength": 262144,
     "isFree": true
-  },
-  "google/gemma-4-31b-it": {
-    "prompt": 0.12,
-    "completion": 0.35,
-    "inputCacheRead": 0.09,
-    "contextLength": 262144,
-    "isFree": false
   },
   "qwen/qwen3.6-plus": {
     "prompt": 0.325,
@@ -697,17 +709,17 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "nvidia/nemotron-3-super-120b-a12b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 1000000,
-    "isFree": true
-  },
   "nvidia/nemotron-3-super-120b-a12b": {
     "prompt": 0.08,
     "completion": 0.45,
     "contextLength": 1000000,
     "isFree": false
+  },
+  "nvidia/nemotron-3-super-120b-a12b:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 1000000,
+    "isFree": true
   },
   "bytedance-seed/seed-2.0-lite": {
     "prompt": 0.25,
@@ -928,18 +940,6 @@
     "contextLength": 1040000,
     "isFree": false
   },
-  "liquid/lfm-2.5-1.2b-thinking:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 32768,
-    "isFree": true
-  },
-  "liquid/lfm-2.5-1.2b-instruct:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 32768,
-    "isFree": true
-  },
   "openai/gpt-audio": {
     "prompt": 2.5,
     "completion": 10,
@@ -1002,17 +1002,17 @@
     "contextLength": 1048576,
     "isFree": false
   },
-  "nvidia/nemotron-3-nano-30b-a3b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 256000,
-    "isFree": true
-  },
   "nvidia/nemotron-3-nano-30b-a3b": {
     "prompt": 0.05,
     "completion": 0.2,
     "contextLength": 262144,
     "isFree": false
+  },
+  "nvidia/nemotron-3-nano-30b-a3b:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 256000,
+    "isFree": true
   },
   "openai/gpt-5.2-chat": {
     "prompt": 1.75,
@@ -1145,7 +1145,7 @@
   "openai/gpt-5.1": {
     "prompt": 1.25,
     "completion": 10,
-    "inputCacheRead": 0.13,
+    "inputCacheRead": 0.125,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -1413,28 +1413,28 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "qwen/qwen3-next-80b-a3b-instruct:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
-  },
   "qwen/qwen3-next-80b-a3b-instruct": {
     "prompt": 0.09,
     "completion": 1.1,
     "contextLength": 262144,
     "isFree": false
   },
-  "qwen/qwen-plus-2025-07-28:thinking": {
-    "prompt": 0.26,
-    "completion": 0.78,
-    "inputCacheWrite": 0.325,
-    "contextLength": 1000000,
-    "isFree": false
+  "qwen/qwen3-next-80b-a3b-instruct:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 262144,
+    "isFree": true
   },
   "qwen/qwen-plus-2025-07-28": {
     "prompt": 0.26,
     "completion": 0.78,
+    "contextLength": 1000000,
+    "isFree": false
+  },
+  "qwen/qwen-plus-2025-07-28:thinking": {
+    "prompt": 0.26,
+    "completion": 0.78,
+    "inputCacheWrite": 0.325,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -1469,8 +1469,8 @@
     "isFree": false
   },
   "deepseek/deepseek-chat-v3.1": {
-    "prompt": 0.21,
-    "completion": 0.79,
+    "prompt": 0.25,
+    "completion": 0.95,
     "inputCacheRead": 0.13,
     "contextLength": 163840,
     "isFree": false
@@ -1522,20 +1522,20 @@
   "openai/gpt-5-nano": {
     "prompt": 0.05,
     "completion": 0.4,
-    "inputCacheRead": 0.01,
+    "inputCacheRead": 0.005,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-oss-120b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 131072,
-    "isFree": true
-  },
   "openai/gpt-oss-120b": {
-    "prompt": 0.036,
-    "completion": 0.18,
+    "prompt": 0.03,
+    "completion": 0.15,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "openai/gpt-oss-20b": {
+    "prompt": 0.029,
+    "completion": 0.14,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1544,12 +1544,6 @@
     "completion": 0,
     "contextLength": 131072,
     "isFree": true
-  },
-  "openai/gpt-oss-20b": {
-    "prompt": 0.029,
-    "completion": 0.14,
-    "contextLength": 131072,
-    "isFree": false
   },
   "anthropic/claude-opus-4.1": {
     "prompt": 15,
@@ -1599,17 +1593,17 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "qwen/qwen3-coder:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 1048576,
-    "isFree": true
-  },
   "qwen/qwen3-coder": {
     "prompt": 0.22,
     "completion": 1.8,
     "contextLength": 1048576,
     "isFree": false
+  },
+  "qwen/qwen3-coder:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 1048576,
+    "isFree": true
   },
   "bytedance/ui-tars-1.5-7b": {
     "prompt": 0.1,
@@ -1639,17 +1633,17 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 32768,
-    "isFree": true
-  },
   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
     "prompt": 0.2,
     "completion": 0.9,
     "contextLength": 128000,
     "isFree": false
+  },
+  "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 32768,
+    "isFree": true
   },
   "tencent/hunyuan-a13b-instruct": {
     "prompt": 0.14,
@@ -2080,17 +2074,17 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "meta-llama/llama-3.3-70b-instruct:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 131072,
-    "isFree": true
-  },
   "meta-llama/llama-3.3-70b-instruct": {
     "prompt": 0.1,
     "completion": 0.32,
     "contextLength": 131072,
     "isFree": false
+  },
+  "meta-llama/llama-3.3-70b-instruct:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 131072,
+    "isFree": true
   },
   "amazon/nova-lite-v1": {
     "prompt": 0.06,
@@ -2148,13 +2142,13 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "inflection/inflection-3-productivity": {
+  "inflection/inflection-3-pi": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
     "isFree": false
   },
-  "inflection/inflection-3-pi": {
+  "inflection/inflection-3-productivity": {
     "prompt": 2.5,
     "completion": 10,
     "contextLength": 8000,
@@ -2166,15 +2160,21 @@
     "contextLength": 65536,
     "isFree": false
   },
+  "meta-llama/llama-3.2-11b-vision-instruct": {
+    "prompt": 0.345,
+    "completion": 0.345,
+    "contextLength": 131072,
+    "isFree": false
+  },
   "meta-llama/llama-3.2-1b-instruct": {
     "prompt": 0.027,
     "completion": 0.201,
     "contextLength": 131072,
     "isFree": false
   },
-  "meta-llama/llama-3.2-11b-vision-instruct": {
-    "prompt": 0.345,
-    "completion": 0.345,
+  "meta-llama/llama-3.2-3b-instruct": {
+    "prompt": 0.05,
+    "completion": 0.33,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2183,12 +2183,6 @@
     "completion": 0,
     "contextLength": 131072,
     "isFree": true
-  },
-  "meta-llama/llama-3.2-3b-instruct": {
-    "prompt": 0.05,
-    "completion": 0.33,
-    "contextLength": 131072,
-    "isFree": false
   },
   "qwen/qwen-2.5-72b-instruct": {
     "prompt": 0.36,
@@ -2220,17 +2214,17 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "nousresearch/hermes-3-llama-3.1-405b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 131072,
-    "isFree": true
-  },
   "nousresearch/hermes-3-llama-3.1-405b": {
     "prompt": 1,
     "completion": 1,
     "contextLength": 131072,
     "isFree": false
+  },
+  "nousresearch/hermes-3-llama-3.1-405b:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 131072,
+    "isFree": true
   },
   "sao10k/l3-lunaris-8b": {
     "prompt": 0.04,
@@ -2245,15 +2239,15 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "meta-llama/llama-3.1-8b-instruct": {
-    "prompt": 0.02,
-    "completion": 0.03,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "meta-llama/llama-3.1-70b-instruct": {
     "prompt": 0.4,
     "completion": 0.4,
+    "contextLength": 131072,
+    "isFree": false
+  },
+  "meta-llama/llama-3.1-8b-instruct": {
+    "prompt": 0.02,
+    "completion": 0.03,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2263,14 +2257,14 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "openai/gpt-4o-mini-2024-07-18": {
+  "openai/gpt-4o-mini": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-4o-mini": {
+  "openai/gpt-4o-mini-2024-07-18": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.075,
@@ -2283,15 +2277,15 @@
     "contextLength": 8192,
     "isFree": false
   },
-  "openai/gpt-4o-2024-05-13": {
-    "prompt": 5,
-    "completion": 15,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "openai/gpt-4o": {
     "prompt": 2.5,
     "completion": 10,
+    "contextLength": 128000,
+    "isFree": false
+  },
+  "openai/gpt-4o-2024-05-13": {
+    "prompt": 5,
+    "completion": 15,
     "contextLength": 128000,
     "isFree": false
   },
@@ -2378,16 +2372,16 @@
     "contextLength": 4096,
     "isFree": false
   },
-  "openai/gpt-4": {
-    "prompt": 30,
-    "completion": 60,
-    "contextLength": 8191,
-    "isFree": false
-  },
   "openai/gpt-3.5-turbo": {
     "prompt": 0.5,
     "completion": 1.5,
     "contextLength": 16385,
+    "isFree": false
+  },
+  "openai/gpt-4": {
+    "prompt": 30,
+    "completion": 60,
+    "contextLength": 8191,
     "isFree": false
   }
 }
