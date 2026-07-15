@@ -98,9 +98,9 @@
     "isFree": false
   },
   "tencent/hy3": {
-    "prompt": 0.14,
-    "completion": 0.58,
-    "inputCacheRead": 0.035,
+    "prompt": 0.2,
+    "completion": 0.8,
+    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -177,9 +177,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.9282,
-    "completion": 2.9172,
-    "inputCacheRead": 0.17238,
+    "prompt": 0.8848,
+    "completion": 2.7808,
+    "inputCacheRead": 0.16432,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -228,9 +228,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.5,
-    "completion": 2.2,
-    "inputCacheRead": 0.1,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.2,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -472,8 +472,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.289,
-    "completion": 2.4,
+    "prompt": 0.45,
+    "completion": 2.7,
     "contextLength": 262144,
     "isFree": false
   },
@@ -500,9 +500,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.09,
-    "completion": 0.18,
-    "inputCacheRead": 0.018,
+    "prompt": 0.098,
+    "completion": 0.196,
+    "inputCacheRead": 0.02,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -528,9 +528,9 @@
     "isFree": false
   },
   "xiaomi/mimo-v2.5": {
-    "prompt": 0.105,
+    "prompt": 0.14,
     "completion": 0.28,
-    "inputCacheRead": 0.028,
+    "inputCacheRead": 0.0028,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -567,7 +567,7 @@
   "moonshotai/kimi-k2.6": {
     "prompt": 0.66,
     "completion": 3.41,
-    "inputCacheRead": 0.15,
+    "inputCacheRead": 0.144,
     "contextLength": 262144,
     "isFree": false
   },
@@ -588,8 +588,8 @@
     "isFree": false
   },
   "google/gemma-4-26b-a4b-it": {
-    "prompt": 0.06,
-    "completion": 0.33,
+    "prompt": 0.1,
+    "completion": 0.3,
     "contextLength": 262144,
     "isFree": false
   },
@@ -600,8 +600,8 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.06,
-    "completion": 0.35,
+    "prompt": 0.12,
+    "completion": 0.37,
     "contextLength": 262144,
     "isFree": false
   },
@@ -674,8 +674,9 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.24,
-    "completion": 0.96,
+    "prompt": 0.3,
+    "completion": 1.2,
+    "inputCacheRead": 0.06,
     "contextLength": 204800,
     "isFree": false
   },
@@ -706,12 +707,13 @@
     "prompt": 1.2,
     "completion": 4,
     "inputCacheRead": 0.24,
-    "contextLength": 262144,
+    "contextLength": 202752,
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.08,
-    "completion": 0.45,
+    "prompt": 0.21,
+    "completion": 0.455,
+    "inputCacheRead": 0.06,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -788,7 +790,6 @@
   "qwen/qwen3.5-35b-a3b": {
     "prompt": 0.14,
     "completion": 1,
-    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -859,10 +860,10 @@
     "isFree": false
   },
   "qwen/qwen3.5-397b-a17b": {
-    "prompt": 0.385,
-    "completion": 2.45,
-    "inputCacheRead": 0.111,
-    "contextLength": 256000,
+    "prompt": 0.45,
+    "completion": 3,
+    "inputCacheRead": 0.225,
+    "contextLength": 262144,
     "isFree": false
   },
   "minimax/minimax-m2.5": {
@@ -873,9 +874,9 @@
     "isFree": false
   },
   "z-ai/glm-5": {
-    "prompt": 0.6,
-    "completion": 1.92,
-    "inputCacheRead": 0.12,
+    "prompt": 0.95,
+    "completion": 3.15,
+    "inputCacheRead": 0.19,
     "contextLength": 202752,
     "isFree": false
   },
@@ -895,7 +896,7 @@
     "isFree": false
   },
   "qwen/qwen3-coder-next": {
-    "prompt": 0.11,
+    "prompt": 0.12,
     "completion": 0.8,
     "inputCacheRead": 0.07,
     "contextLength": 262144,
@@ -914,9 +915,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.5": {
-    "prompt": 0.375,
-    "completion": 2.025,
-    "inputCacheRead": 0.203,
+    "prompt": 0.57,
+    "completion": 2.85,
+    "inputCacheRead": 0.095,
     "contextLength": 262144,
     "isFree": false
   },
@@ -953,10 +954,9 @@
     "isFree": false
   },
   "z-ai/glm-4.7-flash": {
-    "prompt": 0.06,
+    "prompt": 0.0605,
     "completion": 0.4,
-    "inputCacheRead": 0.01,
-    "contextLength": 202752,
+    "contextLength": 200000,
     "isFree": false
   },
   "openai/gpt-5.2-codex": {
@@ -1106,10 +1106,10 @@
     "isFree": false
   },
   "deepseek/deepseek-v3.2": {
-    "prompt": 0.2145,
-    "completion": 0.32175,
-    "inputCacheRead": 0.02145,
-    "contextLength": 131072,
+    "prompt": 0.269,
+    "completion": 0.4,
+    "inputCacheRead": 0.1345,
+    "contextLength": 163840,
     "isFree": false
   },
   "anthropic/claude-opus-4.5": {
@@ -1153,7 +1153,7 @@
   "openai/gpt-5.1-chat": {
     "prompt": 1.25,
     "completion": 10,
-    "inputCacheRead": 0.13,
+    "inputCacheRead": 0.125,
     "webSearch": 10000,
     "contextLength": 128000,
     "isFree": false
@@ -1161,7 +1161,7 @@
   "openai/gpt-5.1-codex": {
     "prompt": 1.25,
     "completion": 10,
-    "inputCacheRead": 0.13,
+    "inputCacheRead": 0.125,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -1177,7 +1177,6 @@
   "moonshotai/kimi-k2-thinking": {
     "prompt": 0.6,
     "completion": 2.5,
-    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1321,10 +1320,10 @@
     "isFree": false
   },
   "z-ai/glm-4.6": {
-    "prompt": 0.43,
-    "completion": 1.75,
-    "inputCacheRead": 0.08,
-    "contextLength": 200000,
+    "prompt": 0.5,
+    "completion": 2,
+    "inputCacheRead": 0.1,
+    "contextLength": 202752,
     "isFree": false
   },
   "anthropic/claude-sonnet-4.5": {
@@ -1362,10 +1361,10 @@
     "isFree": false
   },
   "qwen/qwen3-vl-235b-a22b-instruct": {
-    "prompt": 0.2,
-    "completion": 0.88,
-    "inputCacheRead": 0.11,
-    "contextLength": 262144,
+    "prompt": 0.21,
+    "completion": 1.9,
+    "inputCacheRead": 0.1,
+    "contextLength": 131072,
     "isFree": false
   },
   "qwen/qwen3-max": {
@@ -1394,9 +1393,9 @@
   },
   "deepseek/deepseek-v3.1-terminus": {
     "prompt": 0.27,
-    "completion": 0.95,
-    "inputCacheRead": 0.13,
-    "contextLength": 163840,
+    "completion": 1,
+    "inputCacheRead": 0.135,
+    "contextLength": 131072,
     "isFree": false
   },
   "qwen/qwen3-coder-flash": {
@@ -1414,8 +1413,9 @@
     "isFree": false
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
-    "prompt": 0.09,
+    "prompt": 0.1,
     "completion": 1.1,
+    "inputCacheRead": 0.07,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1528,14 +1528,15 @@
     "isFree": false
   },
   "openai/gpt-oss-120b": {
-    "prompt": 0.03,
-    "completion": 0.15,
+    "prompt": 0.037,
+    "completion": 0.17,
     "contextLength": 131072,
     "isFree": false
   },
   "openai/gpt-oss-20b": {
-    "prompt": 0.029,
-    "completion": 0.14,
+    "prompt": 0.03,
+    "completion": 0.13,
+    "inputCacheRead": 0.03,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1568,9 +1569,9 @@
     "isFree": false
   },
   "qwen/qwen3-30b-a3b-instruct-2507": {
-    "prompt": 0.04815,
-    "completion": 0.19305,
-    "contextLength": 131072,
+    "prompt": 0.1,
+    "completion": 0.3,
+    "contextLength": 262144,
     "isFree": false
   },
   "z-ai/glm-4.5": {
@@ -1594,8 +1595,9 @@
     "isFree": false
   },
   "qwen/qwen3-coder": {
-    "prompt": 0.22,
-    "completion": 1.8,
+    "prompt": 0.3,
+    "completion": 1,
+    "inputCacheRead": 0.1,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1670,13 +1672,14 @@
     "isFree": false
   },
   "mistralai/mistral-small-3.2-24b-instruct": {
-    "prompt": 0.075,
-    "completion": 0.2,
-    "contextLength": 128000,
+    "prompt": 0.1,
+    "completion": 0.3,
+    "inputCacheRead": 0.01,
+    "contextLength": 131072,
     "isFree": false
   },
   "minimax/minimax-m1": {
-    "prompt": 0.4,
+    "prompt": 0.55,
     "completion": 2.2,
     "contextLength": 1000000,
     "isFree": false
@@ -1871,8 +1874,8 @@
     "isFree": false
   },
   "deepseek/deepseek-chat-v3-0324": {
-    "prompt": 0.24,
-    "completion": 0.9,
+    "prompt": 0.27,
+    "completion": 1.12,
     "inputCacheRead": 0.135,
     "contextLength": 163840,
     "isFree": false
@@ -1930,7 +1933,8 @@
   },
   "google/gemma-3-27b-it": {
     "prompt": 0.08,
-    "completion": 0.16,
+    "completion": 0.45,
+    "inputCacheRead": 0.04,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1984,8 +1988,9 @@
     "isFree": false
   },
   "qwen/qwen2.5-vl-72b-instruct": {
-    "prompt": 0.25,
-    "completion": 0.75,
+    "prompt": 0.8,
+    "completion": 1,
+    "inputCacheRead": 0.4,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2042,12 +2047,6 @@
     "contextLength": 16384,
     "isFree": false
   },
-  "sao10k/l3.1-70b-hanami-x1": {
-    "prompt": 3,
-    "completion": 3,
-    "contextLength": 16000,
-    "isFree": false
-  },
   "deepseek/deepseek-chat": {
     "prompt": 0.2002,
     "completion": 0.8001,
@@ -2075,8 +2074,8 @@
     "isFree": false
   },
   "meta-llama/llama-3.3-70b-instruct": {
-    "prompt": 0.1,
-    "completion": 0.32,
+    "prompt": 0.13,
+    "completion": 0.4,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2173,8 +2172,8 @@
     "isFree": false
   },
   "meta-llama/llama-3.2-3b-instruct": {
-    "prompt": 0.05,
-    "completion": 0.33,
+    "prompt": 0.0509,
+    "completion": 0.335,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2246,14 +2245,15 @@
     "isFree": false
   },
   "meta-llama/llama-3.1-8b-instruct": {
-    "prompt": 0.02,
-    "completion": 0.03,
+    "prompt": 0.05,
+    "completion": 0.08,
+    "inputCacheRead": 0.025,
     "contextLength": 131072,
     "isFree": false
   },
   "mistralai/mistral-nemo": {
     "prompt": 0.02,
-    "completion": 0.03,
+    "completion": 0.04,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2280,6 +2280,7 @@
   "openai/gpt-4o": {
     "prompt": 2.5,
     "completion": 10,
+    "inputCacheRead": 1.25,
     "contextLength": 128000,
     "isFree": false
   },
