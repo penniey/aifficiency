@@ -177,9 +177,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.8848,
-    "completion": 2.7808,
-    "inputCacheRead": 0.16432,
+    "prompt": 0.9576,
+    "completion": 3.0096,
+    "inputCacheRead": 0.17784,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -281,10 +281,10 @@
     "isFree": false
   },
   "qwen/qwen3.7-max": {
-    "prompt": 1.25,
-    "completion": 3.75,
-    "inputCacheRead": 0.25,
-    "inputCacheWrite": 1.5625,
+    "prompt": 1.475,
+    "completion": 4.425,
+    "inputCacheRead": 0.295,
+    "inputCacheWrite": 1.84375,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -565,9 +565,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.66,
-    "completion": 3.41,
-    "inputCacheRead": 0.144,
+    "prompt": 0.95,
+    "completion": 4,
+    "inputCacheRead": 0.16,
     "contextLength": 262144,
     "isFree": false
   },
@@ -600,8 +600,9 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.12,
-    "completion": 0.37,
+    "prompt": 0.22,
+    "completion": 0.55,
+    "inputCacheRead": 0.12,
     "contextLength": 262144,
     "isFree": false
   },
@@ -896,7 +897,7 @@
     "isFree": false
   },
   "qwen/qwen3-coder-next": {
-    "prompt": 0.12,
+    "prompt": 0.11,
     "completion": 0.8,
     "inputCacheRead": 0.07,
     "contextLength": 262144,
@@ -954,9 +955,10 @@
     "isFree": false
   },
   "z-ai/glm-4.7-flash": {
-    "prompt": 0.0605,
+    "prompt": 0.06,
     "completion": 0.4,
-    "contextLength": 200000,
+    "inputCacheRead": 0.01,
+    "contextLength": 202752,
     "isFree": false
   },
   "openai/gpt-5.2-codex": {
@@ -1771,12 +1773,6 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "arcee-ai/coder-large": {
-    "prompt": 0.5,
-    "completion": 0.8,
-    "contextLength": 32768,
-    "isFree": false
-  },
   "meta-llama/llama-guard-4-12b": {
     "prompt": 0.18,
     "completion": 0.18,
@@ -1796,7 +1792,7 @@
     "isFree": false
   },
   "qwen/qwen3-14b": {
-    "prompt": 0.1,
+    "prompt": 0.12,
     "completion": 0.24,
     "contextLength": 131702,
     "isFree": false
@@ -2172,8 +2168,8 @@
     "isFree": false
   },
   "meta-llama/llama-3.2-3b-instruct": {
-    "prompt": 0.0509,
-    "completion": 0.335,
+    "prompt": 0.05,
+    "completion": 0.33,
     "contextLength": 131072,
     "isFree": false
   },
