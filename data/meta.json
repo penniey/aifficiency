@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-07-17T09:52:29.745Z",
+  "fetchedAt": "2026-07-18T09:19:36.563Z",
   "sources": {
     "openrouter": {
       "url": "https://openrouter.ai/api/v1/models",
-      "fetchedAt": "2026-07-17T09:52:27.409Z",
+      "fetchedAt": "2026-07-18T09:19:34.404Z",
       "count": 344
     },
     "swebench": {
       "url": "https://www.swebench.com/verified.html",
-      "fetchedAt": "2026-07-17T09:52:29.745Z",
+      "fetchedAt": "2026-07-18T09:19:36.563Z",
       "count": 48
     },
     "aider": {
       "url": "https://aider.chat/docs/leaderboards/",
-      "fetchedAt": "2026-07-17T09:52:29.745Z",
+      "fetchedAt": "2026-07-18T09:19:36.563Z",
       "count": 69
     }
   },

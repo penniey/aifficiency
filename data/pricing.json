@@ -1,4 +1,17 @@
 {
+  "thinkingmachines/inkling": {
+    "prompt": 1,
+    "completion": 4.05,
+    "inputCacheRead": 0.17,
+    "contextLength": 1048576,
+    "isFree": false
+  },
+  "openrouter/auto-beta": {
+    "prompt": -1000000,
+    "completion": -1000000,
+    "contextLength": 2000000,
+    "isFree": false
+  },
   "moonshotai/kimi-k3": {
     "prompt": 3,
     "completion": 15,
@@ -192,9 +205,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.9576,
-    "completion": 3.0096,
-    "inputCacheRead": 0.17784,
+    "prompt": 0.336,
+    "completion": 1.056,
+    "inputCacheRead": 0.0624,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -205,9 +218,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.75,
-    "completion": 3.5,
-    "inputCacheRead": 0.16,
+    "prompt": 1,
+    "completion": 4.4,
+    "inputCacheRead": 0.2,
     "contextLength": 262144,
     "isFree": false
   },
@@ -615,9 +628,8 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.22,
-    "completion": 0.55,
-    "inputCacheRead": 0.12,
+    "prompt": 0.12,
+    "completion": 0.37,
     "contextLength": 262144,
     "isFree": false
   },
@@ -810,8 +822,8 @@
     "isFree": false
   },
   "qwen/qwen3.5-27b": {
-    "prompt": 0.195,
-    "completion": 1.56,
+    "prompt": 0.26,
+    "completion": 2.6,
     "contextLength": 262144,
     "isFree": false
   },
@@ -969,10 +981,9 @@
     "isFree": false
   },
   "z-ai/glm-4.7-flash": {
-    "prompt": 0.06,
+    "prompt": 0.0605,
     "completion": 0.4,
-    "inputCacheRead": 0.01,
-    "contextLength": 202752,
+    "contextLength": 200000,
     "isFree": false
   },
   "openai/gpt-5.2-codex": {
@@ -1193,6 +1204,7 @@
   "moonshotai/kimi-k2-thinking": {
     "prompt": 0.6,
     "completion": 2.5,
+    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1299,12 +1311,6 @@
     "inputCacheRead": 0.5,
     "webSearch": 10000,
     "contextLength": 200000,
-    "isFree": false
-  },
-  "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
-    "prompt": 0.4,
-    "completion": 0.4,
-    "contextLength": 131072,
     "isFree": false
   },
   "google/gemini-2.5-flash-image": {
@@ -1794,8 +1800,8 @@
     "isFree": false
   },
   "qwen/qwen3-30b-a3b": {
-    "prompt": 0.12,
-    "completion": 0.5,
+    "prompt": 0.13,
+    "completion": 0.52,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1806,8 +1812,8 @@
     "isFree": false
   },
   "qwen/qwen3-14b": {
-    "prompt": 0.1,
-    "completion": 0.24,
+    "prompt": 0.2275,
+    "completion": 0.91,
     "contextLength": 131702,
     "isFree": false
   },
@@ -2168,12 +2174,6 @@
     "contextLength": 65536,
     "isFree": false
   },
-  "meta-llama/llama-3.2-11b-vision-instruct": {
-    "prompt": 0.345,
-    "completion": 0.345,
-    "contextLength": 131072,
-    "isFree": false
-  },
   "meta-llama/llama-3.2-1b-instruct": {
     "prompt": 0.027,
     "completion": 0.201,
@@ -2365,8 +2365,8 @@
     "isFree": false
   },
   "mancer/weaver": {
-    "prompt": 0.75,
-    "completion": 1,
+    "prompt": 0.5,
+    "completion": 0.75,
     "contextLength": 8000,
     "isFree": false
   },
