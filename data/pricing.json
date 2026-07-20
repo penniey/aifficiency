@@ -205,9 +205,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.2688,
-    "completion": 0.8448,
-    "inputCacheRead": 0.04992,
+    "prompt": 1.12,
+    "completion": 3.52,
+    "inputCacheRead": 0.208,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -740,9 +740,8 @@
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.21,
-    "completion": 0.455,
-    "inputCacheRead": 0.06,
+    "prompt": 0.085,
+    "completion": 0.4,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -903,9 +902,9 @@
   },
   "z-ai/glm-5": {
     "prompt": 0.95,
-    "completion": 3.15,
-    "inputCacheRead": 0.19,
-    "contextLength": 202752,
+    "completion": 2.55,
+    "inputCacheRead": 0.2,
+    "contextLength": 204800,
     "isFree": false
   },
   "qwen/qwen3-max-thinking": {
@@ -1443,12 +1442,6 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "qwen/qwen3-next-80b-a3b-instruct:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
-  },
   "qwen/qwen-plus-2025-07-28": {
     "prompt": 0.26,
     "completion": 0.78,
@@ -1613,8 +1606,8 @@
     "isFree": false
   },
   "qwen/qwen3-235b-a22b-thinking-2507": {
-    "prompt": 0.1495,
-    "completion": 1.495,
+    "prompt": 0.3,
+    "completion": 3,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1624,12 +1617,6 @@
     "inputCacheRead": 0.1,
     "contextLength": 1048576,
     "isFree": false
-  },
-  "qwen/qwen3-coder:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 1048576,
-    "isFree": true
   },
   "bytedance/ui-tars-1.5-7b": {
     "prompt": 0.1,
@@ -1664,12 +1651,6 @@
     "completion": 0.9,
     "contextLength": 128000,
     "isFree": false
-  },
-  "cognitivecomputations/dolphin-mistral-24b-venice-edition:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 32768,
-    "isFree": true
   },
   "tencent/hunyuan-a13b-instruct": {
     "prompt": 0.14,
@@ -1814,8 +1795,8 @@
     "isFree": false
   },
   "qwen/qwen3-14b": {
-    "prompt": 0.2275,
-    "completion": 0.91,
+    "prompt": 0.12,
+    "completion": 0.24,
     "contextLength": 131702,
     "isFree": false
   },
@@ -2096,12 +2077,6 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "meta-llama/llama-3.3-70b-instruct:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 131072,
-    "isFree": true
-  },
   "amazon/nova-lite-v1": {
     "prompt": 0.06,
     "completion": 0.24,
@@ -2188,12 +2163,6 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "meta-llama/llama-3.2-3b-instruct:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 131072,
-    "isFree": true
-  },
   "qwen/qwen-2.5-72b-instruct": {
     "prompt": 0.36,
     "completion": 0.4,
@@ -2229,12 +2198,6 @@
     "completion": 1,
     "contextLength": 131072,
     "isFree": false
-  },
-  "nousresearch/hermes-3-llama-3.1-405b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 131072,
-    "isFree": true
   },
   "sao10k/l3-lunaris-8b": {
     "prompt": 0.04,
