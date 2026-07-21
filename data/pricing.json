@@ -1,4 +1,11 @@
 {
+  "meituan/longcat-2.0": {
+    "prompt": 0.3,
+    "completion": 1.2,
+    "inputCacheRead": 0.006,
+    "contextLength": 1048756,
+    "isFree": false
+  },
   "thinkingmachines/inkling": {
     "prompt": 1,
     "completion": 4.05,
@@ -126,17 +133,11 @@
     "isFree": false
   },
   "tencent/hy3": {
-    "prompt": 0.2,
-    "completion": 0.8,
-    "inputCacheRead": 0.05,
+    "prompt": 0.14,
+    "completion": 0.58,
+    "inputCacheRead": 0.035,
     "contextLength": 262144,
     "isFree": false
-  },
-  "tencent/hy3:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
   },
   "poolside/laguna-xs-2.1": {
     "prompt": 0.06,
@@ -205,9 +206,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 1.12,
-    "completion": 3.52,
-    "inputCacheRead": 0.208,
+    "prompt": 0.9366,
+    "completion": 2.9436,
+    "inputCacheRead": 0.17394,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -218,9 +219,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.85,
-    "completion": 3.8,
-    "inputCacheRead": 0.17,
+    "prompt": 0.82,
+    "completion": 3.75,
+    "inputCacheRead": 0.16,
     "contextLength": 262144,
     "isFree": false
   },
@@ -528,9 +529,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.098,
-    "completion": 0.196,
-    "inputCacheRead": 0.0196,
+    "prompt": 0.0938,
+    "completion": 0.1876,
+    "inputCacheRead": 0.01876,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -628,9 +629,8 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.22,
-    "completion": 0.55,
-    "inputCacheRead": 0.12,
+    "prompt": 0.12,
+    "completion": 0.37,
     "contextLength": 262144,
     "isFree": false
   },
@@ -740,8 +740,8 @@
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.085,
-    "completion": 0.4,
+    "prompt": 0.08,
+    "completion": 0.45,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -1436,9 +1436,8 @@
     "isFree": false
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
-    "prompt": 0.1,
-    "completion": 1.1,
-    "inputCacheRead": 0.07,
+    "prompt": 0.0975,
+    "completion": 0.78,
     "contextLength": 262144,
     "isFree": false
   },
