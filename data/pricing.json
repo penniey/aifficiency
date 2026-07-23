@@ -237,9 +237,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.791,
-    "completion": 2.486,
-    "inputCacheRead": 0.1469,
+    "prompt": 0.798,
+    "completion": 2.508,
+    "inputCacheRead": 0.1482,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -288,9 +288,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.6,
-    "completion": 3.6,
-    "inputCacheRead": 0.2,
+    "prompt": 0.5,
+    "completion": 2.2,
+    "inputCacheRead": 0.1,
     "contextLength": 512288,
     "isFree": false
   },
@@ -532,8 +532,9 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.45,
-    "completion": 2.7,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.12,
     "contextLength": 262144,
     "isFree": false
   },
@@ -648,8 +649,9 @@
     "isFree": false
   },
   "google/gemma-4-26b-a4b-it": {
-    "prompt": 0.07,
-    "completion": 0.34,
+    "prompt": 0.12,
+    "completion": 0.35,
+    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -661,7 +663,8 @@
   },
   "google/gemma-4-31b-it": {
     "prompt": 0.12,
-    "completion": 0.37,
+    "completion": 0.35,
+    "inputCacheRead": 0.09,
     "contextLength": 262144,
     "isFree": false
   },
@@ -933,8 +936,8 @@
   },
   "z-ai/glm-5": {
     "prompt": 0.95,
-    "completion": 2.55,
-    "inputCacheRead": 0.2,
+    "completion": 3.15,
+    "inputCacheRead": 0.19,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1012,8 +1015,9 @@
     "isFree": false
   },
   "z-ai/glm-4.7-flash": {
-    "prompt": 0.0605,
+    "prompt": 0.06,
     "completion": 0.4,
+    "inputCacheRead": 0.01,
     "contextLength": 202752,
     "isFree": false
   },
@@ -1361,8 +1365,8 @@
     "isFree": false
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
-    "prompt": 0.13,
-    "completion": 0.52,
+    "prompt": 0.15,
+    "completion": 0.6,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1467,9 +1471,8 @@
     "isFree": false
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
-    "prompt": 0.1,
-    "completion": 1.1,
-    "inputCacheRead": 0.07,
+    "prompt": 0.15,
+    "completion": 1.2,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1826,8 +1829,8 @@
     "isFree": false
   },
   "qwen/qwen3-14b": {
-    "prompt": 0.12,
-    "completion": 0.24,
+    "prompt": 0.2275,
+    "completion": 0.91,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2189,8 +2192,8 @@
     "isFree": false
   },
   "meta-llama/llama-3.2-3b-instruct": {
-    "prompt": 0.0509,
-    "completion": 0.335,
+    "prompt": 0.05,
+    "completion": 0.33,
     "contextLength": 131072,
     "isFree": false
   },
