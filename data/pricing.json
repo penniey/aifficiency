@@ -1,4 +1,10 @@
 {
+  "inclusionai/ling-3.0-flash:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 262144,
+    "isFree": true
+  },
   "poolside/laguna-s-2.1": {
     "prompt": 0.1,
     "completion": 0.2,
@@ -41,7 +47,7 @@
     "prompt": 1,
     "completion": 4.05,
     "inputCacheRead": 0.17,
-    "contextLength": 524288,
+    "contextLength": 1048576,
     "isFree": false
   },
   "openrouter/auto-beta": {
@@ -164,9 +170,9 @@
     "isFree": false
   },
   "tencent/hy3": {
-    "prompt": 0.14,
-    "completion": 0.58,
-    "inputCacheRead": 0.035,
+    "prompt": 0.132,
+    "completion": 0.528,
+    "inputCacheRead": 0.033,
     "contextLength": 262144,
     "isFree": false
   },
@@ -237,9 +243,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.798,
-    "completion": 2.508,
-    "inputCacheRead": 0.1482,
+    "prompt": 0.8246,
+    "completion": 2.5916,
+    "inputCacheRead": 0.15314,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -250,9 +256,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.82,
-    "completion": 3.75,
-    "inputCacheRead": 0.16,
+    "prompt": 0.71,
+    "completion": 3.49,
+    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -532,9 +538,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.6,
-    "completion": 3.6,
-    "inputCacheRead": 0.12,
+    "prompt": 0.288,
+    "completion": 2.4,
     "contextLength": 262144,
     "isFree": false
   },
@@ -662,9 +667,9 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.12,
+    "prompt": 0.1,
     "completion": 0.35,
-    "inputCacheRead": 0.09,
+    "inputCacheRead": 0.1,
     "contextLength": 262144,
     "isFree": false
   },
@@ -856,8 +861,8 @@
     "isFree": false
   },
   "qwen/qwen3.5-27b": {
-    "prompt": 0.26,
-    "completion": 2.6,
+    "prompt": 0.195,
+    "completion": 1.56,
     "contextLength": 262144,
     "isFree": false
   },
@@ -936,8 +941,8 @@
   },
   "z-ai/glm-5": {
     "prompt": 0.95,
-    "completion": 3.15,
-    "inputCacheRead": 0.19,
+    "completion": 2.55,
+    "inputCacheRead": 0.2,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1278,9 +1283,8 @@
     "isFree": true
   },
   "minimax/minimax-m2": {
-    "prompt": 0.3,
-    "completion": 1.2,
-    "inputCacheRead": 0.03,
+    "prompt": 0.255,
+    "completion": 1.02,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1585,9 +1589,8 @@
     "isFree": false
   },
   "openai/gpt-oss-20b": {
-    "prompt": 0.03,
-    "completion": 0.13,
-    "inputCacheRead": 0.03,
+    "prompt": 0.029,
+    "completion": 0.14,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1646,9 +1649,8 @@
     "isFree": false
   },
   "qwen/qwen3-coder": {
-    "prompt": 0.3,
-    "completion": 1,
-    "inputCacheRead": 0.1,
+    "prompt": 0.38,
+    "completion": 1.55,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1965,8 +1967,9 @@
     "isFree": false
   },
   "google/gemma-3-27b-it": {
-    "prompt": 0.1,
-    "completion": 0.3,
+    "prompt": 0.08,
+    "completion": 0.45,
+    "inputCacheRead": 0.04,
     "contextLength": 262144,
     "isFree": false
   },
