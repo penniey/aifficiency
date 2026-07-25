@@ -1,4 +1,22 @@
 {
+  "anthropic/claude-opus-5-fast": {
+    "prompt": 10,
+    "completion": 50,
+    "inputCacheRead": 1,
+    "inputCacheWrite": 12.5,
+    "webSearch": 10000,
+    "contextLength": 1000000,
+    "isFree": false
+  },
+  "anthropic/claude-opus-5": {
+    "prompt": 5,
+    "completion": 25,
+    "inputCacheRead": 0.5,
+    "inputCacheWrite": 6.25,
+    "webSearch": 10000,
+    "contextLength": 1000000,
+    "isFree": false
+  },
   "inclusionai/ling-3.0-flash:free": {
     "prompt": 0,
     "completion": 0,
@@ -243,9 +261,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.8246,
-    "completion": 2.5916,
-    "inputCacheRead": 0.15314,
+    "prompt": 0.7462,
+    "completion": 2.3452,
+    "inputCacheRead": 0.13858,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -256,8 +274,8 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.71,
-    "completion": 3.49,
+    "prompt": 0.78,
+    "completion": 3.5,
     "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
@@ -294,9 +312,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.5,
-    "completion": 2.2,
-    "inputCacheRead": 0.1,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.2,
     "contextLength": 512288,
     "isFree": false
   },
@@ -538,7 +556,7 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.288,
+    "prompt": 0.289,
     "completion": 2.4,
     "contextLength": 262144,
     "isFree": false
@@ -566,9 +584,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.098,
-    "completion": 0.196,
-    "inputCacheRead": 0.0196,
+    "prompt": 0.0938,
+    "completion": 0.1876,
+    "inputCacheRead": 0.01876,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -631,9 +649,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.684,
-    "completion": 3.42,
-    "inputCacheRead": 0.144,
+    "prompt": 0.646,
+    "completion": 2.72,
+    "inputCacheRead": 0.1088,
     "contextLength": 262144,
     "isFree": false
   },
@@ -667,9 +685,8 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.1,
-    "completion": 0.35,
-    "inputCacheRead": 0.1,
+    "prompt": 0.14,
+    "completion": 0.4,
     "contextLength": 262144,
     "isFree": false
   },
@@ -694,8 +711,8 @@
     "isFree": false
   },
   "arcee-ai/trinity-large-thinking": {
-    "prompt": 0.25,
-    "completion": 0.8,
+    "prompt": 0.22,
+    "completion": 0.85,
     "inputCacheRead": 0.06,
     "contextLength": 262144,
     "isFree": false
@@ -779,8 +796,8 @@
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.08,
-    "completion": 0.45,
+    "prompt": 0.085,
+    "completion": 0.4,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -1475,8 +1492,9 @@
     "isFree": false
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
-    "prompt": 0.15,
-    "completion": 1.2,
+    "prompt": 0.1,
+    "completion": 1.1,
+    "inputCacheRead": 0.07,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1589,8 +1607,9 @@
     "isFree": false
   },
   "openai/gpt-oss-20b": {
-    "prompt": 0.029,
-    "completion": 0.14,
+    "prompt": 0.03,
+    "completion": 0.13,
+    "inputCacheRead": 0.03,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1649,8 +1668,9 @@
     "isFree": false
   },
   "qwen/qwen3-coder": {
-    "prompt": 0.38,
-    "completion": 1.55,
+    "prompt": 0.3,
+    "completion": 1,
+    "inputCacheRead": 0.1,
     "contextLength": 262144,
     "isFree": false
   },
