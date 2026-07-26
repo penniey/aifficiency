@@ -261,9 +261,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.7462,
-    "completion": 2.3452,
-    "inputCacheRead": 0.13858,
+    "prompt": 0.6832,
+    "completion": 2.1472,
+    "inputCacheRead": 0.12688,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -274,7 +274,7 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.78,
+    "prompt": 0.75,
     "completion": 3.5,
     "inputCacheRead": 0.15,
     "contextLength": 262144,
@@ -556,8 +556,9 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.289,
-    "completion": 2.4,
+    "prompt": 0.3,
+    "completion": 2,
+    "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
   },
@@ -584,9 +585,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.0938,
-    "completion": 0.1876,
-    "inputCacheRead": 0.01876,
+    "prompt": 0.14,
+    "completion": 0.28,
+    "inputCacheRead": 0.028,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1608,8 +1609,7 @@
   },
   "openai/gpt-oss-20b": {
     "prompt": 0.03,
-    "completion": 0.13,
-    "inputCacheRead": 0.03,
+    "completion": 0.14,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1642,8 +1642,8 @@
     "isFree": false
   },
   "qwen/qwen3-30b-a3b-instruct-2507": {
-    "prompt": 0.1,
-    "completion": 0.3,
+    "prompt": 0.04815,
+    "completion": 0.19305,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1839,8 +1839,8 @@
     "isFree": false
   },
   "qwen/qwen3-30b-a3b": {
-    "prompt": 0.13,
-    "completion": 0.52,
+    "prompt": 0.12,
+    "completion": 0.5,
     "contextLength": 131072,
     "isFree": false
   },
