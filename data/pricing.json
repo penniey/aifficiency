@@ -261,9 +261,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.6832,
-    "completion": 2.1472,
-    "inputCacheRead": 0.12688,
+    "prompt": 0.8008,
+    "completion": 2.5168,
+    "inputCacheRead": 0.14872,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -274,7 +274,7 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.75,
+    "prompt": 0.73,
     "completion": 3.5,
     "inputCacheRead": 0.15,
     "contextLength": 262144,
@@ -312,9 +312,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.6,
-    "completion": 3.6,
-    "inputCacheRead": 0.2,
+    "prompt": 0.5,
+    "completion": 2.2,
+    "inputCacheRead": 0.1,
     "contextLength": 512288,
     "isFree": false
   },
@@ -869,7 +869,7 @@
     "prompt": 0.5,
     "completion": 3,
     "webSearch": 14000,
-    "contextLength": 131072,
+    "contextLength": 65536,
     "isFree": false
   },
   "qwen/qwen3.5-35b-a3b": {
@@ -1246,7 +1246,7 @@
   "openai/gpt-5.1-codex": {
     "prompt": 1.25,
     "completion": 10,
-    "inputCacheRead": 0.125,
+    "inputCacheRead": 0.13,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -1254,7 +1254,7 @@
   "openai/gpt-5.1-codex-mini": {
     "prompt": 0.25,
     "completion": 2,
-    "inputCacheRead": 0.025,
+    "inputCacheRead": 0.03,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -1966,13 +1966,6 @@
     "contextLength": 256000,
     "isFree": false
   },
-  "openai/gpt-4o-mini-search-preview": {
-    "prompt": 0.15,
-    "completion": 0.6,
-    "webSearch": 27500,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "openai/gpt-4o-search-preview": {
     "prompt": 2.5,
     "completion": 10,
@@ -2188,18 +2181,6 @@
     "prompt": 0.04,
     "completion": 0.1,
     "contextLength": 32768,
-    "isFree": false
-  },
-  "inflection/inflection-3-pi": {
-    "prompt": 2.5,
-    "completion": 10,
-    "contextLength": 8000,
-    "isFree": false
-  },
-  "inflection/inflection-3-productivity": {
-    "prompt": 2.5,
-    "completion": 10,
-    "contextLength": 8000,
     "isFree": false
   },
   "thedrummer/rocinante-12b": {
