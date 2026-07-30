@@ -295,9 +295,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.742,
-    "completion": 2.332,
-    "inputCacheRead": 0.1378,
+    "prompt": 0.6979,
+    "completion": 2.1934,
+    "inputCacheRead": 0.12961,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -355,9 +355,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.5,
-    "completion": 2.2,
-    "inputCacheRead": 0.1,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.2,
     "contextLength": 512288,
     "isFree": false
   },
@@ -557,9 +557,9 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 3,
+    "prompt": 2.9,
     "completion": 15,
-    "inputCacheRead": 0.3,
+    "inputCacheRead": 0.29,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -764,8 +764,9 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.14,
-    "completion": 0.4,
+    "prompt": 0.1,
+    "completion": 0.34,
+    "inputCacheRead": 0.1,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1098,9 +1099,9 @@
     "isFree": false
   },
   "qwen/qwen3-coder-next": {
-    "prompt": 0.18,
-    "completion": 0.9,
-    "inputCacheRead": 0.036,
+    "prompt": 0.12,
+    "completion": 0.8,
+    "inputCacheRead": 0.07,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1547,8 +1548,8 @@
     "isFree": false
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
-    "prompt": 0.13,
-    "completion": 0.52,
+    "prompt": 0.15,
+    "completion": 0.6,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2308,8 +2309,8 @@
     "isFree": false
   },
   "deepseek/deepseek-chat": {
-    "prompt": 0.2002,
-    "completion": 0.8001,
+    "prompt": 0.2574,
+    "completion": 1.0287,
     "contextLength": 163840,
     "isFree": false
   },
@@ -2390,8 +2391,8 @@
     "isFree": false
   },
   "qwen/qwen-2.5-7b-instruct": {
-    "prompt": 0.04,
-    "completion": 0.1,
+    "prompt": 0.1,
+    "completion": 0.2,
     "contextLength": 32768,
     "isFree": false
   },
