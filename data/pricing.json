@@ -1,4 +1,11 @@
 {
+  "deepseek/deepseek-v4-flash-0731": {
+    "prompt": 0.14,
+    "completion": 0.28,
+    "inputCacheRead": 0.0028,
+    "contextLength": 1048576,
+    "isFree": false
+  },
   "qwen/qwen3.7-flash": {
     "prompt": 0.03,
     "completion": 0.13,
@@ -32,9 +39,9 @@
     "isFree": true
   },
   "poolside/laguna-s-2.1": {
-    "prompt": 0.1,
-    "completion": 0.2,
-    "inputCacheRead": 0.01,
+    "prompt": 0.09,
+    "completion": 0.18,
+    "inputCacheRead": 0.009,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -129,37 +136,37 @@
     "isFree": false
   },
   "openai/gpt-5.6-luna-pro": {
-    "prompt": 0.5,
-    "completion": 3,
-    "inputCacheRead": 0.05,
-    "inputCacheWrite": 0.625,
+    "prompt": 0.1,
+    "completion": 0.6,
+    "inputCacheRead": 0.01,
+    "inputCacheWrite": 0.125,
     "webSearch": 5000,
     "contextLength": 1050000,
     "isFree": false
   },
   "openai/gpt-5.6-luna": {
-    "prompt": 0.5,
-    "completion": 3,
-    "inputCacheRead": 0.05,
-    "inputCacheWrite": 0.625,
+    "prompt": 0.1,
+    "completion": 0.6,
+    "inputCacheRead": 0.01,
+    "inputCacheWrite": 0.125,
     "webSearch": 5000,
     "contextLength": 1050000,
     "isFree": false
   },
   "openai/gpt-5.6-terra-pro": {
-    "prompt": 1.25,
-    "completion": 7.5,
-    "inputCacheRead": 0.125,
-    "inputCacheWrite": 1.5625,
+    "prompt": 1,
+    "completion": 6,
+    "inputCacheRead": 0.1,
+    "inputCacheWrite": 1.25,
     "webSearch": 5000,
     "contextLength": 1050000,
     "isFree": false
   },
   "openai/gpt-5.6-terra": {
-    "prompt": 1.25,
-    "completion": 7.5,
-    "inputCacheRead": 0.125,
-    "inputCacheWrite": 1.5625,
+    "prompt": 1,
+    "completion": 6,
+    "inputCacheRead": 0.1,
+    "inputCacheWrite": 1.25,
     "webSearch": 5000,
     "contextLength": 1050000,
     "isFree": false
@@ -295,9 +302,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.6979,
-    "completion": 2.1934,
-    "inputCacheRead": 0.12961,
+    "prompt": 1.12,
+    "completion": 3.52,
+    "inputCacheRead": 0.208,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -558,7 +565,7 @@
   },
   "~moonshotai/kimi-latest": {
     "prompt": 2.9,
-    "completion": 15,
+    "completion": 14,
     "inputCacheRead": 0.29,
     "contextLength": 1048576,
     "isFree": false
@@ -720,9 +727,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.646,
-    "completion": 2.72,
-    "inputCacheRead": 0.1088,
+    "prompt": 0.95,
+    "completion": 4,
+    "inputCacheRead": 0.16,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1216,7 +1223,7 @@
   "nvidia/nemotron-3-nano-30b-a3b": {
     "prompt": 0.05,
     "completion": 0.2,
-    "inputCacheRead": 0.025,
+    "inputCacheRead": 0.03,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1516,22 +1523,6 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/o3-deep-research": {
-    "prompt": 10,
-    "completion": 40,
-    "inputCacheRead": 2.5,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
-  "openai/o4-mini-deep-research": {
-    "prompt": 2,
-    "completion": 8,
-    "inputCacheRead": 0.5,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
   "google/gemini-2.5-flash-image": {
     "prompt": 0.3,
     "completion": 2.5,
@@ -1548,8 +1539,8 @@
     "isFree": false
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
-    "prompt": 0.15,
-    "completion": 0.6,
+    "prompt": 0.13,
+    "completion": 0.52,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1631,14 +1622,6 @@
     "inputCacheRead": 0.13,
     "inputCacheWrite": 0.8125,
     "contextLength": 1000000,
-    "isFree": false
-  },
-  "openai/gpt-5-codex": {
-    "prompt": 1.25,
-    "completion": 10,
-    "inputCacheRead": 0.125,
-    "webSearch": 10000,
-    "contextLength": 400000,
     "isFree": false
   },
   "deepseek/deepseek-v3.1-terminus": {
@@ -1795,8 +1778,7 @@
   },
   "openai/gpt-oss-20b": {
     "prompt": 0.03,
-    "completion": 0.13,
-    "inputCacheRead": 0.03,
+    "completion": 0.14,
     "contextLength": 131072,
     "isFree": false
   },
@@ -1858,8 +1840,8 @@
     "isFree": false
   },
   "qwen/qwen3-235b-a22b-thinking-2507": {
-    "prompt": 0.3,
-    "completion": 3,
+    "prompt": 0.23,
+    "completion": 2.3,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2381,7 +2363,7 @@
   "thedrummer/unslopnemo-12b": {
     "prompt": 0.4,
     "completion": 0.4,
-    "contextLength": 32768,
+    "contextLength": 1024000,
     "isFree": false
   },
   "anthracite-org/magnum-v4-72b": {
