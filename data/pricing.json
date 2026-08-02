@@ -1,8 +1,15 @@
 {
+  "~deepseek/deepseek-v4-flash-latest": {
+    "prompt": 0.09,
+    "completion": 0.18,
+    "inputCacheRead": 0.018,
+    "contextLength": 1048576,
+    "isFree": false
+  },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.14,
-    "completion": 0.28,
-    "inputCacheRead": 0.0028,
+    "prompt": 0.09,
+    "completion": 0.18,
+    "inputCacheRead": 0.018,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -283,9 +290,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.76006,
-    "completion": 2.38876,
-    "inputCacheRead": 0.141154,
+    "prompt": 0.2842,
+    "completion": 0.8932,
+    "inputCacheRead": 0.05278,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -334,9 +341,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.5,
-    "completion": 2.2,
-    "inputCacheRead": 0.1,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.2,
     "contextLength": 512288,
     "isFree": false
   },
