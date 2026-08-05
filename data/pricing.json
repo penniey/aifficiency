@@ -783,9 +783,9 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.25,
-    "completion": 1,
-    "inputCacheRead": 0.05,
+    "prompt": 0.27,
+    "completion": 1.08,
+    "inputCacheRead": 0.054,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1710,8 +1710,8 @@
     "isFree": false
   },
   "mistralai/mistral-small-3.2-24b-instruct": {
-    "prompt": 0.075,
-    "completion": 0.2,
+    "prompt": 0.09375,
+    "completion": 0.25,
     "contextLength": 256000,
     "isFree": false
   },
