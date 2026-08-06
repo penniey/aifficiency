@@ -1,4 +1,12 @@
 {
+  "meta/muse-spark-1.2": {
+    "prompt": 1.25,
+    "completion": 4.25,
+    "inputCacheRead": 0.15,
+    "webSearch": 2500,
+    "contextLength": 1048576,
+    "isFree": false
+  },
   "qwen/qwen3.8-max": {
     "prompt": 2,
     "completion": 6,
@@ -52,6 +60,13 @@
     "inputCacheWrite": 6.25,
     "webSearch": 10000,
     "contextLength": 1000000,
+    "isFree": false
+  },
+  "inclusionai/ling-3.0-flash": {
+    "prompt": 0.075,
+    "completion": 0.22,
+    "inputCacheRead": 0.015,
+    "contextLength": 131072,
     "isFree": false
   },
   "inclusionai/ling-3.0-flash:free": {
@@ -311,7 +326,7 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.73,
+    "prompt": 0.7,
     "completion": 3.5,
     "inputCacheRead": 0.15,
     "contextLength": 262144,
@@ -580,8 +595,9 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.289,
-    "completion": 2.4,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.12,
     "contextLength": 262144,
     "isFree": false
   },
@@ -608,9 +624,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.14,
-    "completion": 0.28,
-    "inputCacheRead": 0.028,
+    "prompt": 0.0882,
+    "completion": 0.1764,
+    "inputCacheRead": 0.01764,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -689,9 +705,9 @@
     "isFree": false
   },
   "z-ai/glm-5.1": {
-    "prompt": 0.966,
-    "completion": 3.036,
-    "inputCacheRead": 0.1794,
+    "prompt": 0.952,
+    "completion": 2.992,
+    "inputCacheRead": 0.1768,
     "contextLength": 204800,
     "isFree": false
   },
@@ -974,7 +990,7 @@
     "isFree": false
   },
   "minimax/minimax-m2.5": {
-    "prompt": 0.15,
+    "prompt": 0.22,
     "completion": 0.9,
     "inputCacheRead": 0.05,
     "contextLength": 204800,
@@ -1032,7 +1048,7 @@
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.015,
-    "contextLength": 128000,
+    "contextLength": 131072,
     "isFree": false
   },
   "minimax/minimax-m2-her": {
@@ -1668,8 +1684,8 @@
     "isFree": false
   },
   "qwen/qwen3-235b-a22b-2507": {
-    "prompt": 0.1495,
-    "completion": 0.598,
+    "prompt": 0.09,
+    "completion": 0.55,
     "contextLength": 262144,
     "isFree": false
   },
