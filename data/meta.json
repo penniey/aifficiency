@@ -1,25 +1,25 @@
 {
-  "fetchedAt": "2026-08-06T08:56:52.749Z",
+  "fetchedAt": "2026-08-07T08:24:36.579Z",
   "sources": {
     "openrouter": {
       "url": "https://openrouter.ai/api/v1/models",
-      "fetchedAt": "2026-08-06T08:56:50.541Z",
-      "count": 340
+      "fetchedAt": "2026-08-07T08:24:34.661Z",
+      "count": 400
     },
     "swebench": {
       "url": "https://www.swebench.com/verified.html",
-      "fetchedAt": "2026-08-06T08:56:52.749Z",
+      "fetchedAt": "2026-08-07T08:24:36.579Z",
       "count": 48
     },
     "aider": {
       "url": "https://aider.chat/docs/leaderboards/",
-      "fetchedAt": "2026-08-06T08:56:52.749Z",
+      "fetchedAt": "2026-08-07T08:24:36.579Z",
       "count": 69
     }
   },
   "counts": {
-    "openRouterModels": 340,
-    "ranked": 128,
+    "openRouterModels": 400,
+    "ranked": 163,
     "unmatched": [
       "swebench: Gemini 3 Pro Preview (2025-11-18)",
       "swebench: Devstral small (2512)",
