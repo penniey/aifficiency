@@ -140,9 +140,9 @@
     "isFree": false
   },
   "thinkingmachines/inkling": {
-    "prompt": 1,
+    "prompt": 0.95,
     "completion": 4.05,
-    "inputCacheRead": 0.17,
+    "inputCacheRead": 0.16,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -403,9 +403,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.679,
-    "completion": 2.134,
-    "inputCacheRead": 0.1261,
+    "prompt": 0.252,
+    "completion": 0.792,
+    "inputCacheRead": 0.0468,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -792,9 +792,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.0882,
-    "completion": 0.1764,
-    "inputCacheRead": 0.01764,
+    "prompt": 0.14,
+    "completion": 0.28,
+    "inputCacheRead": 0.028,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -857,9 +857,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.589,
-    "completion": 2.48,
-    "inputCacheRead": 0.0992,
+    "prompt": 0.5795,
+    "completion": 2.44,
+    "inputCacheRead": 0.0976,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1029,8 +1029,8 @@
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.3,
-    "completion": 0.9,
+    "prompt": 0.085,
+    "completion": 0.4,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -1479,9 +1479,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v3.2": {
-    "prompt": 0.269,
-    "completion": 0.4,
-    "inputCacheRead": 0.1345,
+    "prompt": 0.26,
+    "completion": 0.38,
+    "inputCacheRead": 0.13,
     "contextLength": 163840,
     "isFree": false
   },
