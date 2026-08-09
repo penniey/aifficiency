@@ -22,9 +22,9 @@
     "isFree": false
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "prompt": 0.09,
-    "completion": 0.18,
-    "inputCacheRead": 0.018,
+    "prompt": 0.079996,
+    "completion": 0.252,
+    "inputCacheRead": 0.0252,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -403,9 +403,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.252,
-    "completion": 0.792,
-    "inputCacheRead": 0.0468,
+    "prompt": 0.07,
+    "completion": 0.22,
+    "inputCacheRead": 0.013,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -686,7 +686,7 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 2.5,
+    "prompt": 2.8,
     "completion": 14,
     "inputCacheRead": 0.29,
     "contextLength": 1048576,
@@ -734,7 +734,7 @@
     "isFree": false
   },
   "qwen/qwen3.6-35b-a3b": {
-    "prompt": 0.14,
+    "prompt": 0.15,
     "completion": 1,
     "inputCacheRead": 0.05,
     "contextLength": 262144,
@@ -976,9 +976,9 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.27,
-    "completion": 1.08,
-    "inputCacheRead": 0.054,
+    "prompt": 0.3,
+    "completion": 1.2,
+    "inputCacheRead": 0.06,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1029,8 +1029,8 @@
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.085,
-    "completion": 0.4,
+    "prompt": 0.3,
+    "completion": 0.9,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -1479,9 +1479,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v3.2": {
-    "prompt": 0.26,
-    "completion": 0.38,
-    "inputCacheRead": 0.13,
+    "prompt": 0.269,
+    "completion": 0.4,
+    "inputCacheRead": 0.1345,
     "contextLength": 163840,
     "isFree": false
   },
