@@ -1,26 +1,26 @@
 [
   {
-    "name": "Claude 4.5 Opus (high reasoning)",
+    "name": "Claude 4.5 Opus (high)",
     "resolved": 76.8,
     "date": "2026-02-17"
   },
   {
-    "name": "Gemini 3 Flash (high reasoning)",
+    "name": "Gemini 3 Flash (high)",
     "resolved": 75.8,
     "date": "2026-02-17"
   },
   {
-    "name": "MiniMax M2.5 (high reasoning)",
+    "name": "MiniMax M2.5 (high)",
     "resolved": 75.8,
     "date": "2026-02-17"
   },
   {
-    "name": "Claude Opus 4.6",
+    "name": "Claude 4.6 Opus",
     "resolved": 75.6,
     "date": "2026-02-17"
   },
   {
-    "name": "Claude 4.5 Opus medium (20251101)",
+    "name": "Claude 4.5 Opus (20251101) (medium)",
     "resolved": 74.4,
     "date": "2025-11-24"
   },
@@ -30,32 +30,32 @@
     "date": "2025-11-18"
   },
   {
-    "name": "GPT-5-2 Codex",
+    "name": "GPT 5.2 Codex",
     "resolved": 72.8,
     "date": "2026-02-19"
   },
   {
-    "name": "GLM-5 (high reasoning)",
+    "name": "GLM 5 (high)",
     "resolved": 72.8,
     "date": "2026-02-17"
   },
   {
-    "name": "GPT-5-2 (high reasoning)",
+    "name": "GPT 5.2 (high)",
     "resolved": 72.8,
     "date": "2026-02-17"
   },
   {
-    "name": "GPT-5.2 (2025-12-11) (high reasoning)",
+    "name": "GPT 5.2 (2025-12-11) (high)",
     "resolved": 71.8,
     "date": "2025-12-11"
   },
   {
-    "name": "Claude 4.5 Sonnet (high reasoning)",
+    "name": "Claude 4.5 Sonnet (high)",
     "resolved": 71.4,
     "date": "2026-02-17"
   },
   {
-    "name": "Kimi K2.5 (high reasoning)",
+    "name": "Kimi K2.5 (high)",
     "resolved": 70.8,
     "date": "2026-02-17"
   },
@@ -65,7 +65,7 @@
     "date": "2025-09-29"
   },
   {
-    "name": "DeepSeek V3.2 (high reasoning)",
+    "name": "DeepSeek V3.2 (high)",
     "resolved": 70,
     "date": "2026-02-17"
   },
@@ -75,7 +75,7 @@
     "date": "2026-02-26"
   },
   {
-    "name": "GPT-5.2 (2025-12-11)",
+    "name": "GPT 5.2 (2025-12-11)",
     "resolved": 69,
     "date": "2025-12-11"
   },
@@ -85,22 +85,22 @@
     "date": "2025-08-02"
   },
   {
-    "name": "Claude 4.5 Haiku (high reasoning)",
+    "name": "Claude 4.5 Haiku (high)",
     "resolved": 66.6,
     "date": "2026-02-17"
   },
   {
-    "name": "GPT-5.1-codex (medium reasoning)",
+    "name": "GPT 5.1 Codex (medium)",
     "resolved": 66,
     "date": "2025-11-24"
   },
   {
-    "name": "GPT-5.1 (2025-11-13) (medium reasoning)",
+    "name": "GPT 5.1 (2025-11-13) (medium)",
     "resolved": 66,
     "date": "2025-11-20"
   },
   {
-    "name": "GPT-5 (2025-08-07) (medium reasoning)",
+    "name": "GPT 5 (2025-08-07) (medium)",
     "resolved": 65,
     "date": "2025-08-07"
   },
@@ -115,7 +115,7 @@
     "date": "2025-12-10"
   },
   {
-    "name": "Minimax M2",
+    "name": "MiniMax M2",
     "resolved": 61,
     "date": "2025-11-24"
   },
@@ -125,7 +125,7 @@
     "date": "2025-12-01"
   },
   {
-    "name": "GPT-5 mini (2025-08-07) (medium reasoning)",
+    "name": "GPT 5 mini (2025-08-07) (medium)",
     "resolved": 59.8,
     "date": "2025-08-07"
   },
@@ -135,12 +135,12 @@
     "date": "2025-07-26"
   },
   {
-    "name": "Devstral small (2512)",
+    "name": "Devstral Small (2512)",
     "resolved": 56.4,
     "date": "2025-12-09"
   },
   {
-    "name": "GPT-5 Mini",
+    "name": "GPT 5 mini",
     "resolved": 56.2,
     "date": "2026-02-17"
   },
@@ -150,12 +150,12 @@
     "date": "2025-08-02"
   },
   {
-    "name": "GLM-4.6 (T=1)",
+    "name": "GLM 4.6 (T=1)",
     "resolved": 55.4,
     "date": "2025-12-01"
   },
   {
-    "name": "GLM-4.5 (2025-08-22)",
+    "name": "GLM 4.5 (2025-08-22)",
     "resolved": 54.2,
     "date": "2025-08-22"
   },
@@ -185,12 +185,12 @@
     "date": "2025-08-07"
   },
   {
-    "name": "GPT-4.1 (2025-04-14)",
+    "name": "GPT 4.1 (2025-04-14)",
     "resolved": 39.58,
     "date": "2025-07-26"
   },
   {
-    "name": "GPT-5 nano (2025-08-07) (medium reasoning)",
+    "name": "GPT 5 nano (2025-08-07) (medium)",
     "resolved": 34.8,
     "date": "2025-08-07"
   },
@@ -205,12 +205,12 @@
     "date": "2025-08-07"
   },
   {
-    "name": "GPT-4.1-mini (2025-04-14)",
+    "name": "GPT 4.1 mini (2025-04-14)",
     "resolved": 23.94,
     "date": "2025-07-20"
   },
   {
-    "name": "GPT-4o (2024-11-20)",
+    "name": "GPT 4o (2024-11-20)",
     "resolved": 21.62,
     "date": "2025-07-20"
   },
@@ -220,7 +220,7 @@
     "date": "2025-07-20"
   },
   {
-    "name": "Gemini 2.0 flash",
+    "name": "Gemini 2.0 Flash",
     "resolved": 13.52,
     "date": "2025-07-26"
   },
@@ -233,10 +233,5 @@
     "name": "Qwen2.5-Coder 32B Instruct",
     "resolved": 9,
     "date": "2025-08-03"
-  },
-  {
-    "name": "GPT 5.2 Codex",
-    "resolved": 72.8,
-    "date": "2026-02-19"
   }
 ]

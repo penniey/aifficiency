@@ -29,9 +29,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.09,
+    "prompt": 0.08,
     "completion": 0.18,
-    "inputCacheRead": 0.018,
+    "inputCacheRead": 0.016,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -403,9 +403,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.07,
-    "completion": 0.22,
-    "inputCacheRead": 0.013,
+    "prompt": 0.76,
+    "completion": 2.42,
+    "inputCacheRead": 0.14,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -857,9 +857,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.5795,
-    "completion": 2.44,
-    "inputCacheRead": 0.0976,
+    "prompt": 0.95,
+    "completion": 4,
+    "inputCacheRead": 0.16,
     "contextLength": 262144,
     "isFree": false
   },
@@ -882,15 +882,16 @@
     "isFree": false
   },
   "z-ai/glm-5.1": {
-    "prompt": 0.952,
-    "completion": 2.992,
-    "inputCacheRead": 0.1768,
+    "prompt": 1.4,
+    "completion": 4.4,
+    "inputCacheRead": 0.26,
     "contextLength": 204800,
     "isFree": false
   },
   "google/gemma-4-26b-a4b-it": {
-    "prompt": 0.07,
-    "completion": 0.34,
+    "prompt": 0.12,
+    "completion": 0.4,
+    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1029,8 +1030,8 @@
     "isFree": false
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "prompt": 0.3,
-    "completion": 0.9,
+    "prompt": 0.085,
+    "completion": 0.4,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -1369,7 +1370,7 @@
   "nvidia/nemotron-3-nano-30b-a3b": {
     "prompt": 0.05,
     "completion": 0.2,
-    "inputCacheRead": 0.03,
+    "inputCacheRead": 0.025,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2212,8 +2213,8 @@
     "isFree": false
   },
   "qwen/qwen3-14b": {
-    "prompt": 0.2275,
-    "completion": 0.91,
+    "prompt": 0.12,
+    "completion": 0.24,
     "contextLength": 131072,
     "isFree": false
   },
@@ -2327,7 +2328,7 @@
   },
   "meta-llama/llama-4-maverick": {
     "prompt": 0.2,
-    "completion": 0.8,
+    "completion": 0.696,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -2835,8 +2836,8 @@
     "isFree": false
   },
   "gryphe/mythomax-l2-13b": {
-    "prompt": 0.08,
-    "completion": 0.11,
+    "prompt": 0.06,
+    "completion": 0.06,
     "contextLength": 8192,
     "isFree": false
   },
