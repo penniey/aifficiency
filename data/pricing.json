@@ -1,4 +1,23 @@
 {
+  "liquid/lfm-2.5-2.6b:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 128000,
+    "isFree": true
+  },
+  "nvidia/nemotron-3.5-lightning": {
+    "prompt": 0.1,
+    "completion": 0.25,
+    "inputCacheRead": 0.05,
+    "contextLength": 262144,
+    "isFree": false
+  },
+  "nvidia/nemotron-3.5-lightning:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 1000000,
+    "isFree": true
+  },
   "sakana/sakana-namazu": {
     "prompt": 0.95,
     "completion": 4,
@@ -55,6 +74,12 @@
     "completion": 0.18,
     "inputCacheRead": 0.016,
     "contextLength": 1048576,
+    "isFree": false
+  },
+  "bytedance-seed/seed-2.0-code": {
+    "prompt": 0.5,
+    "completion": 3,
+    "contextLength": 262144,
     "isFree": false
   },
   "thinkingmachines/inkling-small": {
@@ -425,9 +450,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.76,
-    "completion": 2.42,
-    "inputCacheRead": 0.14,
+    "prompt": 0.5,
+    "completion": 3.15,
+    "inputCacheRead": 0.1,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1763,9 +1788,8 @@
     "isFree": false
   },
   "qwen/qwen3-vl-235b-a22b-instruct": {
-    "prompt": 0.21,
-    "completion": 1.9,
-    "inputCacheRead": 0.1,
+    "prompt": 0.26,
+    "completion": 1.04,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1795,8 +1819,8 @@
   },
   "deepseek/deepseek-v3.1-terminus": {
     "prompt": 0.27,
-    "completion": 1,
-    "inputCacheRead": 0.135,
+    "completion": 0.95,
+    "inputCacheRead": 0.13,
     "contextLength": 163840,
     "isFree": false
   },
@@ -1939,8 +1963,9 @@
     "isFree": false
   },
   "openai/gpt-oss-120b": {
-    "prompt": 0.037,
+    "prompt": 0.03,
     "completion": 0.17,
+    "inputCacheRead": 0.03,
     "contextLength": 131072,
     "isFree": false
   },
