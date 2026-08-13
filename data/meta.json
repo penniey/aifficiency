@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-08-12T08:29:59.981Z",
+  "fetchedAt": "2026-08-13T08:31:02.576Z",
   "sources": {
     "openrouter": {
       "url": "https://openrouter.ai/api/v1/models",
-      "fetchedAt": "2026-08-12T08:29:58.065Z",
-      "count": 406
+      "fetchedAt": "2026-08-13T08:31:00.625Z",
+      "count": 409
     },
     "swebench": {
       "url": "https://www.swebench.com/verified.html",
-      "fetchedAt": "2026-08-12T08:29:59.981Z",
+      "fetchedAt": "2026-08-13T08:31:02.576Z",
       "count": 47
     },
     "aider": {
       "url": "https://aider.chat/docs/leaderboards/",
-      "fetchedAt": "2026-08-12T08:29:59.981Z",
+      "fetchedAt": "2026-08-13T08:31:02.576Z",
       "count": 69
     }
   },
   "counts": {
-    "openRouterModels": 406,
+    "openRouterModels": 409,
     "ranked": 164,
     "unmatched": [
       "swebench: Claude 4.6 Opus",

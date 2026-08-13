@@ -1,4 +1,38 @@
 {
+  "bytedance-seed/seed-2-1-turbo": {
+    "prompt": 0.5,
+    "completion": 2.5,
+    "contextLength": 262144,
+    "isFree": false
+  },
+  "qwen/qwen3.8-2.4t-a95b": {
+    "prompt": 2,
+    "completion": 6,
+    "inputCacheRead": 0.2,
+    "contextLength": 1000000,
+    "isFree": false
+  },
+  "bytedance-seed/seed-2.0-code": {
+    "prompt": 0.5,
+    "completion": 3,
+    "contextLength": 262144,
+    "isFree": false
+  },
+  "deepseek/deepseek-v4-pro-0813": {
+    "prompt": 0.435,
+    "completion": 0.87,
+    "inputCacheRead": 0.003625,
+    "contextLength": 1048576,
+    "isFree": false
+  },
+  "x-ai/grok-4.6": {
+    "prompt": 2,
+    "completion": 6,
+    "inputCacheRead": 0.5,
+    "webSearch": 5000,
+    "contextLength": 500000,
+    "isFree": false
+  },
   "liquid/lfm-2.5-2.6b:free": {
     "prompt": 0,
     "completion": 0,
@@ -9,7 +43,7 @@
     "prompt": 0.1,
     "completion": 0.25,
     "inputCacheRead": 0.05,
-    "contextLength": 262144,
+    "contextLength": 1048576,
     "isFree": false
   },
   "nvidia/nemotron-3.5-lightning:free": {
@@ -40,12 +74,6 @@
     "contextLength": 131072,
     "isFree": false
   },
-  "inclusionai/ling-3.0-tiny:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 262144,
-    "isFree": true
-  },
   "meta/muse-spark-1.2": {
     "prompt": 1.25,
     "completion": 4.25,
@@ -74,12 +102,6 @@
     "completion": 0.18,
     "inputCacheRead": 0.016,
     "contextLength": 1048576,
-    "isFree": false
-  },
-  "bytedance-seed/seed-2.0-code": {
-    "prompt": 0.5,
-    "completion": 3,
-    "contextLength": 262144,
     "isFree": false
   },
   "thinkingmachines/inkling-small": {
@@ -348,7 +370,7 @@
   "~x-ai/grok-latest": {
     "prompt": 2,
     "completion": 6,
-    "inputCacheRead": 0.3,
+    "inputCacheRead": 0.5,
     "webSearch": 5000,
     "contextLength": 500000,
     "isFree": false
@@ -470,8 +492,8 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.7-code": {
-    "prompt": 0.7,
-    "completion": 3.5,
+    "prompt": 0.67,
+    "completion": 3.4,
     "inputCacheRead": 0.15,
     "contextLength": 262144,
     "isFree": false
@@ -832,9 +854,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 0.63168,
-    "completion": 1.26336,
-    "inputCacheRead": 0.053298,
+    "prompt": 1.168,
+    "completion": 2.336,
+    "inputCacheRead": 0.09855,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1160,8 +1182,9 @@
     "isFree": false
   },
   "qwen/qwen3.5-35b-a3b": {
-    "prompt": 0.14,
-    "completion": 1,
+    "prompt": 0.25,
+    "completion": 1.25,
+    "inputCacheRead": 0.25,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1738,9 +1761,9 @@
     "isFree": false
   },
   "z-ai/glm-4.6": {
-    "prompt": 0.55,
-    "completion": 2.2,
-    "inputCacheRead": 0.11,
+    "prompt": 0.5,
+    "completion": 2,
+    "inputCacheRead": 0.1,
     "contextLength": 204800,
     "isFree": false
   },
@@ -2647,7 +2670,7 @@
   "anthracite-org/magnum-v4-72b": {
     "prompt": 3,
     "completion": 5,
-    "contextLength": 16384,
+    "contextLength": 32768,
     "isFree": false
   },
   "qwen/qwen-2.5-7b-instruct": {
