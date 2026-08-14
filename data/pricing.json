@@ -1,4 +1,22 @@
 {
+  "google/gemini-3.7-flash": {
+    "prompt": 0.375,
+    "completion": 1.875,
+    "inputCacheRead": 0.0375,
+    "inputCacheWrite": 0.020833,
+    "webSearch": 7000,
+    "contextLength": 1048576,
+    "isFree": false
+  },
+  "google/gemini-3.7-flash:batch": {
+    "prompt": 0.1875,
+    "completion": 0.9375,
+    "inputCacheRead": 0.01875,
+    "inputCacheWrite": 0.020833,
+    "webSearch": 7000,
+    "contextLength": 1048576,
+    "isFree": false
+  },
   "bytedance-seed/seed-2-1-turbo": {
     "prompt": 0.5,
     "completion": 2.5,
@@ -8,8 +26,8 @@
   "qwen/qwen3.8-2.4t-a95b": {
     "prompt": 2,
     "completion": 6,
-    "inputCacheRead": 0.2,
-    "contextLength": 1000000,
+    "inputCacheRead": 0.25,
+    "contextLength": 1010000,
     "isFree": false
   },
   "bytedance-seed/seed-2.0-code": {
@@ -43,7 +61,7 @@
     "prompt": 0.1,
     "completion": 0.25,
     "inputCacheRead": 0.05,
-    "contextLength": 1048576,
+    "contextLength": 1000000,
     "isFree": false
   },
   "nvidia/nemotron-3.5-lightning:free": {
@@ -98,9 +116,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.08,
-    "completion": 0.18,
-    "inputCacheRead": 0.016,
+    "prompt": 0.14,
+    "completion": 0.28,
+    "inputCacheRead": 0.028,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -167,19 +185,19 @@
     "isFree": true
   },
   "google/gemini-3.6-flash": {
-    "prompt": 1.5,
-    "completion": 7.5,
-    "inputCacheRead": 0.15,
-    "inputCacheWrite": 0.083333,
+    "prompt": 0.75,
+    "completion": 3.75,
+    "inputCacheRead": 0.075,
+    "inputCacheWrite": 0.041667,
     "webSearch": 14000,
     "contextLength": 1048576,
     "isFree": false
   },
   "google/gemini-3.6-flash:batch": {
-    "prompt": 0.75,
-    "completion": 3.75,
-    "inputCacheRead": 0.075,
-    "inputCacheWrite": 0.083333,
+    "prompt": 0.375,
+    "completion": 1.875,
+    "inputCacheRead": 0.0375,
+    "inputCacheWrite": 0.041667,
     "webSearch": 14000,
     "contextLength": 1048576,
     "isFree": false
@@ -472,9 +490,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.5,
-    "completion": 3.15,
-    "inputCacheRead": 0.1,
+    "prompt": 0.63,
+    "completion": 1.98,
+    "inputCacheRead": 0.0945,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -762,11 +780,11 @@
     "isFree": false
   },
   "~google/gemini-flash-latest": {
-    "prompt": 1.5,
-    "completion": 7.5,
-    "inputCacheRead": 0.15,
-    "inputCacheWrite": 0.083333,
-    "webSearch": 14000,
+    "prompt": 0.375,
+    "completion": 1.875,
+    "inputCacheRead": 0.0375,
+    "inputCacheWrite": 0.020833,
+    "webSearch": 7000,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1741,8 +1759,8 @@
     "isFree": false
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
-    "prompt": 0.15,
-    "completion": 0.6,
+    "prompt": 0.13,
+    "completion": 0.52,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1862,8 +1880,9 @@
     "isFree": false
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
-    "prompt": 0.09,
+    "prompt": 0.1,
     "completion": 1.1,
+    "inputCacheRead": 0.07,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2568,7 +2587,7 @@
   "deepseek/deepseek-r1": {
     "prompt": 0.7,
     "completion": 2.5,
-    "contextLength": 163840,
+    "contextLength": 64000,
     "isFree": false
   },
   "minimax/minimax-01": {
