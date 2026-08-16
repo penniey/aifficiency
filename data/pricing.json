@@ -121,9 +121,9 @@
     "isFree": false
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "prompt": 0.06986,
-    "completion": 0.13972,
-    "inputCacheRead": 0.013972,
+    "prompt": 0.06706,
+    "completion": 0.13412,
+    "inputCacheRead": 0.013412,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -502,9 +502,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.49,
-    "completion": 1.54,
-    "inputCacheRead": 0.091,
+    "prompt": 0.308,
+    "completion": 0.968,
+    "inputCacheRead": 0.0572,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -847,9 +847,9 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.6,
-    "completion": 3.6,
-    "inputCacheRead": 0.12,
+    "prompt": 0.3,
+    "completion": 2,
+    "inputCacheRead": 0.03,
     "contextLength": 262144,
     "isFree": false
   },
@@ -891,9 +891,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.07406,
-    "completion": 0.14812,
-    "inputCacheRead": 0.014812,
+    "prompt": 0.06146,
+    "completion": 0.12292,
+    "inputCacheRead": 0.012292,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -956,9 +956,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.65,
-    "completion": 3.41,
-    "inputCacheRead": 0.15,
+    "prompt": 0.5415,
+    "completion": 2.28,
+    "inputCacheRead": 0.0912,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1904,9 +1904,8 @@
     "isFree": false
   },
   "qwen/qwen-plus-2025-07-28:thinking": {
-    "prompt": 0.4,
-    "completion": 1.2,
-    "inputCacheWrite": 0.5,
+    "prompt": 0.26,
+    "completion": 0.78,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -2294,8 +2293,8 @@
     "isFree": false
   },
   "qwen/qwen3-30b-a3b": {
-    "prompt": 0.12,
-    "completion": 0.5,
+    "prompt": 0.13,
+    "completion": 0.52,
     "contextLength": 131072,
     "isFree": false
   },
