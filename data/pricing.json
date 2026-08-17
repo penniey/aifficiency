@@ -2,6 +2,7 @@
   "qwen/qwen3.8-27b": {
     "prompt": 0.45,
     "completion": 3.2,
+    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -49,9 +50,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro-0813": {
-    "prompt": 0.435,
-    "completion": 0.87,
-    "inputCacheRead": 0.003625,
+    "prompt": 1.32,
+    "completion": 3.96,
+    "inputCacheRead": 0.044,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -70,9 +71,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3.5-lightning": {
-    "prompt": 0.1,
-    "completion": 0.25,
-    "inputCacheRead": 0.05,
+    "prompt": 0.08,
+    "completion": 0.2,
+    "inputCacheRead": 0.04,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -121,17 +122,17 @@
     "isFree": false
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "prompt": 0.06706,
-    "completion": 0.13412,
-    "inputCacheRead": 0.013412,
-    "contextLength": 1048576,
+    "prompt": 0.0603,
+    "completion": 0.1206,
+    "inputCacheRead": 0.01206,
+    "contextLength": 1310720,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
     "prompt": 0.14,
     "completion": 0.28,
     "inputCacheRead": 0.028,
-    "contextLength": 1048576,
+    "contextLength": 1310720,
     "isFree": false
   },
   "thinkingmachines/inkling-small": {
@@ -502,9 +503,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.308,
-    "completion": 0.968,
-    "inputCacheRead": 0.0572,
+    "prompt": 1.19,
+    "completion": 3.74,
+    "inputCacheRead": 0.221,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -514,6 +515,12 @@
     "inputCacheRead": 0.13,
     "contextLength": 512000,
     "isFree": false
+  },
+  "z-ai/glm-5.2:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 128000,
+    "isFree": true
   },
   "openrouter/fusion": {
     "prompt": -1000000,
@@ -785,8 +792,8 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 2.8,
-    "completion": 14,
+    "prompt": 2.6,
+    "completion": 13,
     "inputCacheRead": 0.29,
     "contextLength": 1048576,
     "isFree": false
@@ -833,7 +840,7 @@
     "isFree": false
   },
   "qwen/qwen3.6-35b-a3b": {
-    "prompt": 0.15,
+    "prompt": 0.14,
     "completion": 1,
     "inputCacheRead": 0.05,
     "contextLength": 262144,
@@ -847,9 +854,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.3,
-    "completion": 2,
-    "inputCacheRead": 0.03,
+    "prompt": 0.289,
+    "completion": 2.4,
     "contextLength": 262144,
     "isFree": false
   },
@@ -884,16 +890,16 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 1.168,
-    "completion": 2.336,
-    "inputCacheRead": 0.09855,
+    "prompt": 1.32,
+    "completion": 3.96,
+    "inputCacheRead": 0.044,
     "contextLength": 1048576,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.06146,
-    "completion": 0.12292,
-    "inputCacheRead": 0.012292,
+    "prompt": 0.0826,
+    "completion": 0.1652,
+    "inputCacheRead": 0.01652,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -956,9 +962,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.5415,
-    "completion": 2.28,
-    "inputCacheRead": 0.0912,
+    "prompt": 0.95,
+    "completion": 4,
+    "inputCacheRead": 0.16,
     "contextLength": 262144,
     "isFree": false
   },
@@ -988,9 +994,8 @@
     "isFree": false
   },
   "google/gemma-4-26b-a4b-it": {
-    "prompt": 0.12,
-    "completion": 0.4,
-    "inputCacheRead": 0.05,
+    "prompt": 0.07,
+    "completion": 0.34,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1462,7 +1467,7 @@
   "nvidia/nemotron-3-nano-30b-a3b": {
     "prompt": 0.05,
     "completion": 0.2,
-    "inputCacheRead": 0.025,
+    "inputCacheRead": 0.03,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1840,8 +1845,9 @@
     "isFree": false
   },
   "qwen/qwen3-vl-235b-a22b-instruct": {
-    "prompt": 0.26,
-    "completion": 1.04,
+    "prompt": 0.21,
+    "completion": 1.9,
+    "inputCacheRead": 0.1,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2546,8 +2552,9 @@
     "isFree": false
   },
   "qwen/qwen2.5-vl-72b-instruct": {
-    "prompt": 0.25,
-    "completion": 0.75,
+    "prompt": 0.8,
+    "completion": 1,
+    "inputCacheRead": 0.4,
     "contextLength": 128000,
     "isFree": false
   },
