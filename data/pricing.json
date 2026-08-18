@@ -50,9 +50,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro-0813": {
-    "prompt": 1.32,
-    "completion": 3.96,
-    "inputCacheRead": 0.044,
+    "prompt": 0.66,
+    "completion": 1.98,
+    "inputCacheRead": 0.022,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -122,9 +122,9 @@
     "isFree": false
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "prompt": 0.0603,
-    "completion": 0.1206,
-    "inputCacheRead": 0.01206,
+    "prompt": 0.078596,
+    "completion": 0.157192,
+    "inputCacheRead": 0.015719,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -289,10 +289,10 @@
     "isFree": false
   },
   "openai/gpt-5.6-luna-pro": {
-    "prompt": 0.1,
-    "completion": 0.6,
-    "inputCacheRead": 0.01,
-    "inputCacheWrite": 0.125,
+    "prompt": 0.2,
+    "completion": 1.2,
+    "inputCacheRead": 0.02,
+    "inputCacheWrite": 0.25,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -306,10 +306,10 @@
     "isFree": false
   },
   "openai/gpt-5.6-luna": {
-    "prompt": 0.1,
-    "completion": 0.6,
-    "inputCacheRead": 0.01,
-    "inputCacheWrite": 0.125,
+    "prompt": 0.2,
+    "completion": 1.2,
+    "inputCacheRead": 0.02,
+    "inputCacheWrite": 0.25,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -323,10 +323,10 @@
     "isFree": false
   },
   "openai/gpt-5.6-terra-pro": {
-    "prompt": 1,
-    "completion": 6,
-    "inputCacheRead": 0.1,
-    "inputCacheWrite": 1.25,
+    "prompt": 2,
+    "completion": 12,
+    "inputCacheRead": 0.2,
+    "inputCacheWrite": 2.5,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -340,10 +340,10 @@
     "isFree": false
   },
   "openai/gpt-5.6-terra": {
-    "prompt": 1,
-    "completion": 6,
-    "inputCacheRead": 0.1,
-    "inputCacheWrite": 1.25,
+    "prompt": 2,
+    "completion": 12,
+    "inputCacheRead": 0.2,
+    "inputCacheWrite": 2.5,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -374,10 +374,10 @@
     "isFree": false
   },
   "openai/gpt-5.6-sol": {
-    "prompt": 5,
-    "completion": 30,
-    "inputCacheRead": 0.5,
-    "inputCacheWrite": 6.25,
+    "prompt": 2.5,
+    "completion": 15,
+    "inputCacheRead": 0.25,
+    "inputCacheWrite": 3.125,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -503,9 +503,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 1.19,
-    "completion": 3.74,
-    "inputCacheRead": 0.221,
+    "prompt": 0.4886,
+    "completion": 1.5356,
+    "inputCacheRead": 0.09074,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -817,10 +817,10 @@
     "isFree": false
   },
   "~openai/gpt-latest": {
-    "prompt": 5,
-    "completion": 30,
-    "inputCacheRead": 0.5,
-    "inputCacheWrite": 6.25,
+    "prompt": 2.5,
+    "completion": 15,
+    "inputCacheRead": 0.25,
+    "inputCacheWrite": 3.125,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -890,16 +890,16 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 1.32,
-    "completion": 3.96,
-    "inputCacheRead": 0.044,
+    "prompt": 0.66,
+    "completion": 1.98,
+    "inputCacheRead": 0.022,
     "contextLength": 1048576,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.0826,
-    "completion": 0.1652,
-    "inputCacheRead": 0.01652,
+    "prompt": 0.0798,
+    "completion": 0.1596,
+    "inputCacheRead": 0.01596,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -962,9 +962,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.6": {
-    "prompt": 0.95,
-    "completion": 4,
-    "inputCacheRead": 0.16,
+    "prompt": 0.5605,
+    "completion": 2.36,
+    "inputCacheRead": 0.0944,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1795,9 +1795,9 @@
     "isFree": false
   },
   "z-ai/glm-4.6": {
-    "prompt": 0.55,
-    "completion": 2.2,
-    "inputCacheRead": 0.11,
+    "prompt": 0.5,
+    "completion": 2,
+    "inputCacheRead": 0.1,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1877,8 +1877,7 @@
   },
   "deepseek/deepseek-v3.1-terminus": {
     "prompt": 0.27,
-    "completion": 0.95,
-    "inputCacheRead": 0.13,
+    "completion": 1,
     "contextLength": 163840,
     "isFree": false
   },
