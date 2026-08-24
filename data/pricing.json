@@ -176,15 +176,15 @@
   },
   "~deepseek/deepseek-v4-flash-latest": {
     "prompt": 0.04,
-    "completion": 0.13,
-    "inputCacheRead": 0.01,
+    "completion": 0.08,
+    "inputCacheRead": 0.008,
     "contextLength": 1310720,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.08,
-    "completion": 0.18,
-    "inputCacheRead": 0.016,
+    "prompt": 0.14,
+    "completion": 0.28,
+    "inputCacheRead": 0.028,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -921,9 +921,8 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.6,
-    "completion": 3.6,
-    "inputCacheRead": 0.12,
+    "prompt": 0.32,
+    "completion": 3.2,
     "contextLength": 262144,
     "isFree": false
   },
@@ -958,16 +957,16 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 0.396894,
-    "completion": 0.793788,
-    "inputCacheRead": 0.033074,
+    "prompt": 0.526176,
+    "completion": 1.052352,
+    "inputCacheRead": 0.043848,
     "contextLength": 1048576,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.05166,
-    "completion": 0.10332,
-    "inputCacheRead": 0.010332,
+    "prompt": 0.0574,
+    "completion": 0.1148,
+    "inputCacheRead": 0.01148,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1149,9 +1148,9 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.3,
-    "completion": 1.2,
-    "inputCacheRead": 0.06,
+    "prompt": 0.24,
+    "completion": 0.96,
+    "inputCacheRead": 0.048,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1374,8 +1373,9 @@
     "isFree": false
   },
   "qwen/qwen3.5-397b-a17b": {
-    "prompt": 0.39,
-    "completion": 2.34,
+    "prompt": 0.5,
+    "completion": 3.6,
+    "inputCacheRead": 0.3,
     "contextLength": 262144,
     "isFree": false
   },
