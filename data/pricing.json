@@ -8,9 +8,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
-    "prompt": 0.22,
-    "completion": 0.66,
-    "inputCacheRead": 0.007,
+    "prompt": 0.44,
+    "completion": 1.32,
+    "inputCacheRead": 0.014,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -53,9 +53,10 @@
     "isFree": false
   },
   "qwen/qwen3.8-27b": {
-    "prompt": 0.4,
-    "completion": 3,
-    "inputCacheRead": 0.05,
+    "prompt": 0.425,
+    "completion": 2.55,
+    "inputCacheRead": 0.085,
+    "inputCacheWrite": 0.53125,
     "contextLength": 1000000,
     "isFree": false
   },
@@ -175,8 +176,8 @@
     "isFree": false
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "prompt": 0.04,
-    "completion": 0.08,
+    "prompt": 0.035,
+    "completion": 0.1,
     "inputCacheRead": 0.008,
     "contextLength": 1310720,
     "isFree": false
@@ -198,7 +199,7 @@
   "thinkingmachines/inkling-small:free": {
     "prompt": 0,
     "completion": 0,
-    "contextLength": 262144,
+    "contextLength": 1048576,
     "isFree": true
   },
   "qwen/qwen3.7-flash": {
@@ -299,9 +300,9 @@
     "isFree": false
   },
   "thinkingmachines/inkling": {
-    "prompt": 1,
+    "prompt": 0.95,
     "completion": 4.05,
-    "inputCacheRead": 0.17,
+    "inputCacheRead": 0.16,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -315,7 +316,7 @@
   "thinkingmachines/inkling:free": {
     "prompt": 0,
     "completion": 0,
-    "contextLength": 262144,
+    "contextLength": 1048576,
     "isFree": true
   },
   "openrouter/auto-beta": {
@@ -570,9 +571,9 @@
     "isFree": true
   },
   "z-ai/glm-5.2": {
-    "prompt": 0.966,
-    "completion": 3.036,
-    "inputCacheRead": 0.1932,
+    "prompt": 1.19,
+    "completion": 3.74,
+    "inputCacheRead": 0.221,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -598,7 +599,7 @@
   "moonshotai/kimi-k2.7-code": {
     "prompt": 0.67,
     "completion": 3.4,
-    "inputCacheRead": 0.17,
+    "inputCacheRead": 0.19,
     "contextLength": 262144,
     "isFree": false
   },
@@ -691,6 +692,12 @@
     "contextLength": 524288,
     "isFree": false
   },
+  "minimax/minimax-m3:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 1048576,
+    "isFree": true
+  },
   "stepfun/step-3.7-flash": {
     "prompt": 0.2,
     "completion": 1.15,
@@ -773,13 +780,6 @@
     "contextLength": 32768,
     "isFree": false
   },
-  "inclusionai/ring-2.6-1t": {
-    "prompt": 0.075,
-    "completion": 0.625,
-    "inputCacheRead": 0.015,
-    "contextLength": 262144,
-    "isFree": false
-  },
   "google/gemini-3.1-flash-lite": {
     "prompt": 0.25,
     "completion": 1.5,
@@ -859,8 +859,8 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 2.6,
-    "completion": 13,
+    "prompt": 2.8,
+    "completion": 14,
     "inputCacheRead": 0.29,
     "contextLength": 1048576,
     "isFree": false
@@ -957,24 +957,17 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 0.526176,
-    "completion": 1.052352,
-    "inputCacheRead": 0.043848,
+    "prompt": 0.790308,
+    "completion": 1.580616,
+    "inputCacheRead": 0.065859,
     "contextLength": 1048576,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.0574,
-    "completion": 0.1148,
-    "inputCacheRead": 0.01148,
+    "prompt": 0.088606,
+    "completion": 0.177212,
+    "inputCacheRead": 0.017721,
     "contextLength": 1048576,
-    "isFree": false
-  },
-  "inclusionai/ling-2.6-1t": {
-    "prompt": 0.075,
-    "completion": 0.625,
-    "inputCacheRead": 0.015,
-    "contextLength": 262144,
     "isFree": false
   },
   "tencent/hy3-preview": {
@@ -1004,13 +997,6 @@
     "inputCacheRead": 2,
     "webSearch": 10000,
     "contextLength": 272000,
-    "isFree": false
-  },
-  "inclusionai/ling-2.6-flash": {
-    "prompt": 0.01,
-    "completion": 0.03,
-    "inputCacheRead": 0.002,
-    "contextLength": 262144,
     "isFree": false
   },
   "~anthropic/claude-opus-latest": {
@@ -1054,9 +1040,9 @@
     "isFree": false
   },
   "z-ai/glm-5.1": {
-    "prompt": 0.966,
-    "completion": 3.036,
-    "inputCacheRead": 0.1794,
+    "prompt": 1.26,
+    "completion": 3.96,
+    "inputCacheRead": 0.234,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1148,11 +1134,17 @@
     "isFree": false
   },
   "minimax/minimax-m2.7": {
-    "prompt": 0.24,
-    "completion": 0.96,
-    "inputCacheRead": 0.048,
+    "prompt": 0.3,
+    "completion": 1.2,
+    "inputCacheRead": 0.06,
     "contextLength": 204800,
     "isFree": false
+  },
+  "minimax/minimax-m2.7:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 196608,
+    "isFree": true
   },
   "openai/gpt-5.4-nano": {
     "prompt": 0.2,
@@ -1437,9 +1429,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.5": {
-    "prompt": 0.45,
-    "completion": 2.25,
-    "inputCacheRead": 0.07,
+    "prompt": 0.6,
+    "completion": 3,
+    "inputCacheRead": 0.1,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1539,12 +1531,6 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "nvidia/nemotron-3-nano-30b-a3b:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 256000,
-    "isFree": true
-  },
   "openai/gpt-5.2-chat": {
     "prompt": 1.75,
     "completion": 14,
@@ -1581,6 +1567,13 @@
     "inputCacheRead": 0.0875,
     "webSearch": 10000,
     "contextLength": 400000,
+    "isFree": false
+  },
+  "mistralai/devstral-2512": {
+    "prompt": 0.44,
+    "completion": 2.2,
+    "inputCacheRead": 0.044,
+    "contextLength": 262144,
     "isFree": false
   },
   "relace/relace-search": {
@@ -1750,12 +1743,6 @@
     "inputCacheRead": 0.0375,
     "contextLength": 131072,
     "isFree": false
-  },
-  "nvidia/nemotron-nano-12b-v2-vl:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 128000,
-    "isFree": true
   },
   "minimax/minimax-m2": {
     "prompt": 0.255,
@@ -1977,12 +1964,6 @@
     "contextLength": 1000000,
     "isFree": false
   },
-  "nvidia/nemotron-nano-9b-v2:free": {
-    "prompt": 0,
-    "completion": 0,
-    "contextLength": 128000,
-    "isFree": true
-  },
   "moonshotai/kimi-k2-0905": {
     "prompt": 0.6,
     "completion": 2.5,
@@ -2143,7 +2124,7 @@
   "qwen/qwen3-235b-a22b-thinking-2507": {
     "prompt": 0.23,
     "completion": 2.3,
-    "contextLength": 262144,
+    "contextLength": 131072,
     "isFree": false
   },
   "qwen/qwen3-coder": {
