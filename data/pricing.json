@@ -176,16 +176,16 @@
     "isFree": false
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "prompt": 0.035,
-    "completion": 0.1,
-    "inputCacheRead": 0.008,
+    "prompt": 0.03,
+    "completion": 0.075,
+    "inputCacheRead": 0.007,
     "contextLength": 1310720,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.14,
-    "completion": 0.28,
-    "inputCacheRead": 0.028,
+    "prompt": 0.06,
+    "completion": 0.12,
+    "inputCacheRead": 0.012,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -859,9 +859,9 @@
     "isFree": false
   },
   "~moonshotai/kimi-latest": {
-    "prompt": 2.8,
-    "completion": 14,
-    "inputCacheRead": 0.29,
+    "prompt": 2.55,
+    "completion": 12.75,
+    "inputCacheRead": 0.256,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -921,8 +921,9 @@
     "isFree": false
   },
   "qwen/qwen3.6-27b": {
-    "prompt": 0.32,
-    "completion": 3.2,
+    "prompt": 0.6,
+    "completion": 3.6,
+    "inputCacheRead": 0.12,
     "contextLength": 262144,
     "isFree": false
   },
@@ -957,9 +958,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 0.790308,
-    "completion": 1.580616,
-    "inputCacheRead": 0.065859,
+    "prompt": 0.87,
+    "completion": 1.74,
+    "inputCacheRead": 0.0725,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1059,9 +1060,9 @@
     "isFree": true
   },
   "google/gemma-4-31b-it": {
-    "prompt": 0.1,
+    "prompt": 0.09,
     "completion": 0.34,
-    "inputCacheRead": 0.1,
+    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1365,9 +1366,8 @@
     "isFree": false
   },
   "qwen/qwen3.5-397b-a17b": {
-    "prompt": 0.5,
-    "completion": 3.6,
-    "inputCacheRead": 0.3,
+    "prompt": 0.39,
+    "completion": 2.34,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1958,12 +1958,6 @@
     "contextLength": 1000000,
     "isFree": false
   },
-  "qwen/qwen-plus-2025-07-28:thinking": {
-    "prompt": 0.26,
-    "completion": 0.78,
-    "contextLength": 1000000,
-    "isFree": false
-  },
   "moonshotai/kimi-k2-0905": {
     "prompt": 0.6,
     "completion": 2.5,
@@ -2294,12 +2288,6 @@
     "contextLength": 1000000,
     "isFree": false
   },
-  "google/gemma-3n-e4b-it": {
-    "prompt": 0.06,
-    "completion": 0.12,
-    "contextLength": 32768,
-    "isFree": false
-  },
   "mistralai/mistral-medium-3": {
     "prompt": 0.4,
     "completion": 2,
@@ -2325,7 +2313,7 @@
   "meta-llama/llama-guard-4-12b": {
     "prompt": 0.18,
     "completion": 0.18,
-    "contextLength": 1048576,
+    "contextLength": 163840,
     "isFree": false
   },
   "qwen/qwen3-30b-a3b": {
@@ -2461,8 +2449,9 @@
     "isFree": false
   },
   "meta-llama/llama-4-scout": {
-    "prompt": 0.1,
-    "completion": 0.3,
+    "prompt": 0.11,
+    "completion": 0.34,
+    "inputCacheRead": 0.055,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -2581,9 +2570,8 @@
     "isFree": false
   },
   "qwen/qwen2.5-vl-72b-instruct": {
-    "prompt": 0.8,
-    "completion": 1,
-    "inputCacheRead": 0.4,
+    "prompt": 0.25,
+    "completion": 0.75,
     "contextLength": 128000,
     "isFree": false
   },
@@ -2683,8 +2671,9 @@
     "isFree": false
   },
   "meta-llama/llama-3.3-70b-instruct": {
-    "prompt": 0.1,
-    "completion": 0.32,
+    "prompt": 0.71,
+    "completion": 0.71,
+    "inputCacheRead": 0.71,
     "contextLength": 131072,
     "isFree": false
   },
