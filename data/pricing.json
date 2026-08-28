@@ -1,4 +1,17 @@
 {
+  "tencent/hy4-preview": {
+    "prompt": 0.834,
+    "completion": 2.501,
+    "inputCacheRead": 0.042,
+    "contextLength": 1048576,
+    "isFree": false
+  },
+  "inclusionai/ling-3.0-flash-fin:free": {
+    "prompt": 0,
+    "completion": 0,
+    "contextLength": 262144,
+    "isFree": true
+  },
   "qwen/qwen3.8-flash": {
     "prompt": 0.15,
     "completion": 0.47,
@@ -113,9 +126,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro-0813": {
-    "prompt": 1.122,
-    "completion": 3.366,
-    "inputCacheRead": 0.0374,
+    "prompt": 0.66,
+    "completion": 1.98,
+    "inputCacheRead": 0.022,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -134,9 +147,9 @@
     "isFree": true
   },
   "nvidia/nemotron-3.5-lightning": {
-    "prompt": 0.08,
-    "completion": 0.2,
-    "inputCacheRead": 0.04,
+    "prompt": 0.1,
+    "completion": 0.25,
+    "inputCacheRead": 0.05,
     "contextLength": 262144,
     "isFree": false
   },
@@ -192,9 +205,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.06,
-    "completion": 0.12,
-    "inputCacheRead": 0.012,
+    "prompt": 0.07,
+    "completion": 0.14,
+    "inputCacheRead": 0.014,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -360,7 +373,7 @@
     "prompt": 0.74,
     "completion": 2.96,
     "inputCacheRead": 0.15,
-    "contextLength": 256000,
+    "contextLength": 262144,
     "isFree": false
   },
   "openai/gpt-5.6-luna-pro": {
@@ -368,14 +381,6 @@
     "completion": 1.2,
     "inputCacheRead": 0.02,
     "inputCacheWrite": 0.25,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
-  "openai/gpt-5.6-luna-pro:batch": {
-    "prompt": 0.1,
-    "completion": 0.6,
-    "inputCacheRead": 0.01,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -389,27 +394,11 @@
     "contextLength": 1050000,
     "isFree": false
   },
-  "openai/gpt-5.6-luna:batch": {
-    "prompt": 0.1,
-    "completion": 0.6,
-    "inputCacheRead": 0.01,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
   "openai/gpt-5.6-terra-pro": {
     "prompt": 2,
     "completion": 12,
     "inputCacheRead": 0.2,
     "inputCacheWrite": 2.5,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
-  "openai/gpt-5.6-terra-pro:batch": {
-    "prompt": 1,
-    "completion": 6,
-    "inputCacheRead": 0.1,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -423,14 +412,6 @@
     "contextLength": 1050000,
     "isFree": false
   },
-  "openai/gpt-5.6-terra:batch": {
-    "prompt": 1,
-    "completion": 6,
-    "inputCacheRead": 0.1,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
   "openai/gpt-5.6-sol-pro": {
     "prompt": 2,
     "completion": 10,
@@ -440,29 +421,11 @@
     "contextLength": 1050000,
     "isFree": false
   },
-  "openai/gpt-5.6-sol-pro:batch": {
-    "prompt": 1,
-    "completion": 5,
-    "inputCacheRead": 0.1,
-    "inputCacheWrite": 1.25,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
   "openai/gpt-5.6-sol": {
     "prompt": 2,
     "completion": 10,
     "inputCacheRead": 0.2,
     "inputCacheWrite": 2.5,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
-  "openai/gpt-5.6-sol:batch": {
-    "prompt": 1,
-    "completion": 5,
-    "inputCacheRead": 0.1,
-    "inputCacheWrite": 1.25,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -605,13 +568,6 @@
     "contextLength": 262144,
     "isFree": false
   },
-  "moonshotai/kimi-k2.7-code:batch": {
-    "prompt": 0.95,
-    "completion": 4,
-    "inputCacheRead": 0.19,
-    "contextLength": 262144,
-    "isFree": false
-  },
   "~anthropic/claude-fable-latest": {
     "prompt": 10,
     "completion": 50,
@@ -653,10 +609,10 @@
     "isFree": true
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "prompt": 0.6,
-    "completion": 3.6,
-    "inputCacheRead": 0.2,
-    "contextLength": 512288,
+    "prompt": 0.5,
+    "completion": 2.2,
+    "inputCacheRead": 0.1,
+    "contextLength": 262144,
     "isFree": false
   },
   "nvidia/nemotron-3-ultra-550b-a55b:batch": {
@@ -828,6 +784,12 @@
     "contextLength": 262144,
     "isFree": false
   },
+  "mistralai/mistral-medium-3-5:batch": {
+    "prompt": 0.75,
+    "completion": 3.75,
+    "contextLength": 262144,
+    "isFree": false
+  },
   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
     "prompt": 0,
     "completion": 0,
@@ -936,25 +898,10 @@
     "contextLength": 1050000,
     "isFree": false
   },
-  "openai/gpt-5.5-pro:batch": {
-    "prompt": 15,
-    "completion": 90,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
   "openai/gpt-5.5": {
     "prompt": 5,
     "completion": 30,
     "inputCacheRead": 0.5,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
-  "openai/gpt-5.5:batch": {
-    "prompt": 2.5,
-    "completion": 15,
-    "inputCacheRead": 0.25,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -967,9 +914,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.07952,
-    "completion": 0.15904,
-    "inputCacheRead": 0.015904,
+    "prompt": 0.088606,
+    "completion": 0.177212,
+    "inputCacheRead": 0.017721,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1157,14 +1104,6 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-5.4-nano:batch": {
-    "prompt": 0.1,
-    "completion": 0.625,
-    "inputCacheRead": 0.01,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
   "openai/gpt-5.4-mini": {
     "prompt": 0.75,
     "completion": 4.5,
@@ -1173,15 +1112,14 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-5.4-mini:batch": {
-    "prompt": 0.375,
-    "completion": 2.25,
-    "inputCacheRead": 0.0375,
-    "webSearch": 10000,
-    "contextLength": 400000,
+  "mistralai/mistral-small-2603": {
+    "prompt": 0.15,
+    "completion": 0.6,
+    "inputCacheRead": 0.015,
+    "contextLength": 262144,
     "isFree": false
   },
-  "mistralai/mistral-small-2603": {
+  "mistralai/mistral-small-2603:batch": {
     "prompt": 0.15,
     "completion": 0.6,
     "inputCacheRead": 0.015,
@@ -1226,25 +1164,10 @@
     "contextLength": 1050000,
     "isFree": false
   },
-  "openai/gpt-5.4-pro:batch": {
-    "prompt": 15,
-    "completion": 90,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
   "openai/gpt-5.4": {
     "prompt": 2.5,
     "completion": 15,
     "inputCacheRead": 0.25,
-    "webSearch": 10000,
-    "contextLength": 1050000,
-    "isFree": false
-  },
-  "openai/gpt-5.4:batch": {
-    "prompt": 1.25,
-    "completion": 7.5,
-    "inputCacheRead": 0.125,
     "webSearch": 10000,
     "contextLength": 1050000,
     "isFree": false
@@ -1292,8 +1215,8 @@
     "isFree": false
   },
   "qwen/qwen3.5-122b-a10b": {
-    "prompt": 0.26,
-    "completion": 2.08,
+    "prompt": 0.29,
+    "completion": 2.4,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1548,25 +1471,10 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-5.2-pro:batch": {
-    "prompt": 10.5,
-    "completion": 84,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
   "openai/gpt-5.2": {
     "prompt": 1.75,
     "completion": 14,
     "inputCacheRead": 0.175,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
-  "openai/gpt-5.2:batch": {
-    "prompt": 0.875,
-    "completion": 7,
-    "inputCacheRead": 0.0875,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -1625,6 +1533,13 @@
     "contextLength": 262144,
     "isFree": false
   },
+  "mistralai/ministral-8b-2512:batch": {
+    "prompt": 0.15,
+    "completion": 0.15,
+    "inputCacheRead": 0.015,
+    "contextLength": 262144,
+    "isFree": false
+  },
   "mistralai/ministral-3b-2512": {
     "prompt": 0.1,
     "completion": 0.1,
@@ -1639,10 +1554,17 @@
     "contextLength": 262144,
     "isFree": false
   },
+  "mistralai/mistral-large-2512:batch": {
+    "prompt": 0.5,
+    "completion": 1.5,
+    "inputCacheRead": 0.05,
+    "contextLength": 262144,
+    "isFree": false
+  },
   "deepseek/deepseek-v3.2": {
-    "prompt": 0.26,
-    "completion": 0.38,
-    "inputCacheRead": 0.13,
+    "prompt": 0.269,
+    "completion": 0.4,
+    "inputCacheRead": 0.1345,
     "contextLength": 163840,
     "isFree": false
   },
@@ -1683,14 +1605,6 @@
     "prompt": 1.25,
     "completion": 10,
     "inputCacheRead": 0.125,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
-  "openai/gpt-5.1:batch": {
-    "prompt": 0.625,
-    "completion": 5,
-    "inputCacheRead": 0.0625,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -1838,13 +1752,6 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-5-pro:batch": {
-    "prompt": 7.5,
-    "completion": 60,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
   "z-ai/glm-4.6": {
     "prompt": 0.43,
     "completion": 1.75,
@@ -1916,14 +1823,6 @@
     "inputCacheRead": 0.13,
     "inputCacheWrite": 0.8125,
     "contextLength": 1000000,
-    "isFree": false
-  },
-  "openai/gpt-5-codex:batch": {
-    "prompt": 0.625,
-    "completion": 5,
-    "inputCacheRead": 0.0625,
-    "webSearch": 10000,
-    "contextLength": 400000,
     "isFree": false
   },
   "deepseek/deepseek-v3.1-terminus": {
@@ -1998,6 +1897,13 @@
     "contextLength": 131072,
     "isFree": false
   },
+  "mistralai/mistral-medium-3.1:batch": {
+    "prompt": 0.4,
+    "completion": 2,
+    "inputCacheRead": 0.04,
+    "contextLength": 131072,
+    "isFree": false
+  },
   "z-ai/glm-4.5v": {
     "prompt": 0.6,
     "completion": 1.8,
@@ -2013,14 +1919,6 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-5:batch": {
-    "prompt": 0.625,
-    "completion": 5,
-    "inputCacheRead": 0.0625,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
   "openai/gpt-5-mini": {
     "prompt": 0.25,
     "completion": 2,
@@ -2029,26 +1927,10 @@
     "contextLength": 400000,
     "isFree": false
   },
-  "openai/gpt-5-mini:batch": {
-    "prompt": 0.125,
-    "completion": 1,
-    "inputCacheRead": 0.0125,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
   "openai/gpt-5-nano": {
     "prompt": 0.05,
     "completion": 0.4,
     "inputCacheRead": 0.005,
-    "webSearch": 10000,
-    "contextLength": 400000,
-    "isFree": false
-  },
-  "openai/gpt-5-nano:batch": {
-    "prompt": 0.025,
-    "completion": 0.2,
-    "inputCacheRead": 0.0025,
     "webSearch": 10000,
     "contextLength": 400000,
     "isFree": false
@@ -2085,6 +1967,13 @@
     "isFree": false
   },
   "mistralai/codestral-2508": {
+    "prompt": 0.3,
+    "completion": 0.9,
+    "inputCacheRead": 0.03,
+    "contextLength": 256000,
+    "isFree": false
+  },
+  "mistralai/codestral-2508:batch": {
     "prompt": 0.3,
     "completion": 0.9,
     "inputCacheRead": 0.03,
@@ -2250,13 +2139,6 @@
     "contextLength": 200000,
     "isFree": false
   },
-  "openai/o3-pro:batch": {
-    "prompt": 10,
-    "completion": 40,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
   "google/gemini-2.5-pro-preview": {
     "prompt": 1.25,
     "completion": 10,
@@ -2357,26 +2239,10 @@
     "contextLength": 200000,
     "isFree": false
   },
-  "openai/o4-mini-high:batch": {
-    "prompt": 0.55,
-    "completion": 2.2,
-    "inputCacheRead": 0.1375,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
   "openai/o3": {
     "prompt": 2,
     "completion": 8,
     "inputCacheRead": 0.5,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
-  "openai/o3:batch": {
-    "prompt": 1,
-    "completion": 4,
-    "inputCacheRead": 0.25,
     "webSearch": 10000,
     "contextLength": 200000,
     "isFree": false
@@ -2389,26 +2255,10 @@
     "contextLength": 200000,
     "isFree": false
   },
-  "openai/o4-mini:batch": {
-    "prompt": 0.55,
-    "completion": 2.2,
-    "inputCacheRead": 0.1375,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
   "openai/gpt-4.1": {
     "prompt": 2,
     "completion": 8,
     "inputCacheRead": 0.5,
-    "webSearch": 10000,
-    "contextLength": 1047576,
-    "isFree": false
-  },
-  "openai/gpt-4.1:batch": {
-    "prompt": 1,
-    "completion": 4,
-    "inputCacheRead": 0.25,
     "webSearch": 10000,
     "contextLength": 1047576,
     "isFree": false
@@ -2421,26 +2271,10 @@
     "contextLength": 1047576,
     "isFree": false
   },
-  "openai/gpt-4.1-mini:batch": {
-    "prompt": 0.2,
-    "completion": 0.8,
-    "inputCacheRead": 0.05,
-    "webSearch": 10000,
-    "contextLength": 1047576,
-    "isFree": false
-  },
   "openai/gpt-4.1-nano": {
     "prompt": 0.1,
     "completion": 0.4,
     "inputCacheRead": 0.025,
-    "webSearch": 10000,
-    "contextLength": 1047576,
-    "isFree": false
-  },
-  "openai/gpt-4.1-nano:batch": {
-    "prompt": 0.05,
-    "completion": 0.2,
-    "inputCacheRead": 0.0125,
     "webSearch": 10000,
     "contextLength": 1047576,
     "isFree": false
@@ -2467,13 +2301,6 @@
   "openai/o1-pro": {
     "prompt": 150,
     "completion": 600,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
-  "openai/o1-pro:batch": {
-    "prompt": 75,
-    "completion": 300,
     "webSearch": 10000,
     "contextLength": 200000,
     "isFree": false
@@ -2512,7 +2339,7 @@
     "prompt": 0.08,
     "completion": 0.45,
     "inputCacheRead": 0.04,
-    "contextLength": 262144,
+    "contextLength": 131072,
     "isFree": false
   },
   "thedrummer/skyfall-36b-v2": {
@@ -2558,14 +2385,6 @@
     "contextLength": 200000,
     "isFree": false
   },
-  "openai/o3-mini-high:batch": {
-    "prompt": 0.55,
-    "completion": 2.2,
-    "inputCacheRead": 0.275,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
   "aion-labs/aion-rp-llama-3.1-8b": {
     "prompt": 0.8,
     "completion": 1.6,
@@ -2590,14 +2409,6 @@
     "prompt": 1.1,
     "completion": 4.4,
     "inputCacheRead": 0.55,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
-  "openai/o3-mini:batch": {
-    "prompt": 0.55,
-    "completion": 2.2,
-    "inputCacheRead": 0.275,
     "webSearch": 10000,
     "contextLength": 200000,
     "isFree": false
@@ -2655,14 +2466,6 @@
     "prompt": 15,
     "completion": 60,
     "inputCacheRead": 7.5,
-    "webSearch": 10000,
-    "contextLength": 200000,
-    "isFree": false
-  },
-  "openai/o1:batch": {
-    "prompt": 7.5,
-    "completion": 30,
-    "inputCacheRead": 3.75,
     "webSearch": 10000,
     "contextLength": 200000,
     "isFree": false
@@ -2730,22 +2533,10 @@
     "contextLength": 32768,
     "isFree": false
   },
-  "mistralai/ministral-8b": {
-    "prompt": 0.11,
-    "completion": 0.11,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "qwen/qwen-2.5-7b-instruct": {
     "prompt": 0.1,
     "completion": 0.2,
     "contextLength": 32768,
-    "isFree": false
-  },
-  "thedrummer/rocinante-12b": {
-    "prompt": 0.25,
-    "completion": 0.5,
-    "contextLength": 65536,
     "isFree": false
   },
   "meta-llama/llama-3.2-1b-instruct": {
@@ -2842,14 +2633,6 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-4o-mini:batch": {
-    "prompt": 0.075,
-    "completion": 0.3,
-    "inputCacheRead": 0.0375,
-    "webSearch": 10000,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "google/gemma-2-27b-it": {
     "prompt": 0.65,
     "completion": 0.65,
@@ -2869,14 +2652,6 @@
     "contextLength": 128000,
     "isFree": false
   },
-  "openai/gpt-4o:batch": {
-    "prompt": 1.25,
-    "completion": 5,
-    "inputCacheRead": 0.625,
-    "webSearch": 10000,
-    "contextLength": 128000,
-    "isFree": false
-  },
   "mistralai/mixtral-8x22b-instruct": {
     "prompt": 2,
     "completion": 6,
@@ -2893,13 +2668,6 @@
   "openai/gpt-4-turbo": {
     "prompt": 10,
     "completion": 30,
-    "contextLength": 128000,
-    "isFree": false
-  },
-  "openai/gpt-4-turbo:batch": {
-    "prompt": 5,
-    "completion": 15,
-    "webSearch": 10000,
     "contextLength": 128000,
     "isFree": false
   },
@@ -2970,13 +2738,6 @@
   "openai/gpt-3.5-turbo": {
     "prompt": 0.5,
     "completion": 1.5,
-    "contextLength": 16385,
-    "isFree": false
-  },
-  "openai/gpt-3.5-turbo:batch": {
-    "prompt": 0.25,
-    "completion": 0.75,
-    "webSearch": 10000,
     "contextLength": 16385,
     "isFree": false
   },
