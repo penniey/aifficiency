@@ -62,9 +62,9 @@
     "isFree": false
   },
   "~z-ai/glm-latest": {
-    "prompt": 1.2,
-    "completion": 4,
-    "inputCacheRead": 0.24,
+    "prompt": 1.1875,
+    "completion": 4.18,
+    "inputCacheRead": 0.247,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -227,15 +227,15 @@
   },
   "~deepseek/deepseek-v4-flash-latest": {
     "prompt": 0.03,
-    "completion": 0.1,
-    "inputCacheRead": 0.007,
+    "completion": 0.16,
+    "inputCacheRead": 0.01,
     "contextLength": 1310720,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "prompt": 0.045,
-    "completion": 0.09,
-    "inputCacheRead": 0.009,
+    "prompt": 0.065,
+    "completion": 0.18,
+    "inputCacheRead": 0.016,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -364,9 +364,9 @@
     "isFree": false
   },
   "thinkingmachines/inkling": {
-    "prompt": 0.95,
+    "prompt": 1,
     "completion": 4.05,
-    "inputCacheRead": 0.16,
+    "inputCacheRead": 0.17,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -956,16 +956,16 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 0.660504,
-    "completion": 1.321008,
-    "inputCacheRead": 0.055042,
+    "prompt": 0.457794,
+    "completion": 0.915588,
+    "inputCacheRead": 0.03815,
     "contextLength": 1048576,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.08428,
-    "completion": 0.16856,
-    "inputCacheRead": 0.016856,
+    "prompt": 0.08064,
+    "completion": 0.16128,
+    "inputCacheRead": 0.016128,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1039,9 +1039,9 @@
     "isFree": false
   },
   "z-ai/glm-5.1": {
-    "prompt": 1.26,
-    "completion": 3.96,
-    "inputCacheRead": 0.234,
+    "prompt": 0.966,
+    "completion": 3.036,
+    "inputCacheRead": 0.1794,
     "contextLength": 204800,
     "isFree": false
   },
@@ -1091,8 +1091,8 @@
     "isFree": false
   },
   "arcee-ai/trinity-large-thinking": {
-    "prompt": 0.22,
-    "completion": 0.85,
+    "prompt": 0.25,
+    "completion": 0.8,
     "inputCacheRead": 0.06,
     "contextLength": 262144,
     "isFree": false
@@ -1902,9 +1902,8 @@
     "isFree": false
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
-    "prompt": 0.1,
+    "prompt": 0.09,
     "completion": 1.1,
-    "inputCacheRead": 0.07,
     "contextLength": 262144,
     "isFree": false
   },
