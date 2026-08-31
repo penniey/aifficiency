@@ -43,9 +43,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
-    "prompt": 0.22,
-    "completion": 0.66,
-    "inputCacheRead": 0.007,
+    "prompt": 0.44,
+    "completion": 1.32,
+    "inputCacheRead": 0.014,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -140,9 +140,9 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro-0813": {
-    "prompt": 0.66,
-    "completion": 1.98,
-    "inputCacheRead": 0.022,
+    "prompt": 1.32,
+    "completion": 3.96,
+    "inputCacheRead": 0.044,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -228,7 +228,7 @@
   "~deepseek/deepseek-v4-flash-latest": {
     "prompt": 0.03,
     "completion": 0.16,
-    "inputCacheRead": 0.01,
+    "inputCacheRead": 0.013,
     "contextLength": 1310720,
     "isFree": false
   },
@@ -956,16 +956,16 @@
     "isFree": false
   },
   "deepseek/deepseek-v4-pro": {
-    "prompt": 0.457794,
-    "completion": 0.915588,
-    "inputCacheRead": 0.03815,
+    "prompt": 1.6,
+    "completion": 3.2,
+    "inputCacheRead": 0.135,
     "contextLength": 1048576,
     "isFree": false
   },
   "deepseek/deepseek-v4-flash": {
-    "prompt": 0.08064,
-    "completion": 0.16128,
-    "inputCacheRead": 0.016128,
+    "prompt": 0.088606,
+    "completion": 0.177212,
+    "inputCacheRead": 0.017721,
     "contextLength": 1048576,
     "isFree": false
   },
@@ -1415,9 +1415,9 @@
     "isFree": false
   },
   "moonshotai/kimi-k2.5": {
-    "prompt": 0.6,
-    "completion": 3,
-    "inputCacheRead": 0.1,
+    "prompt": 0.45,
+    "completion": 2.25,
+    "inputCacheRead": 0.07,
     "contextLength": 262144,
     "isFree": false
   },
@@ -1541,9 +1541,9 @@
     "isFree": false
   },
   "mistralai/devstral-2512": {
-    "prompt": 0.44,
-    "completion": 2.2,
-    "inputCacheRead": 0.044,
+    "prompt": 0.4,
+    "completion": 2,
+    "inputCacheRead": 0.04,
     "contextLength": 262144,
     "isFree": false
   },
@@ -2334,14 +2334,14 @@
   "openai/gpt-4.1-nano": {
     "prompt": 0.1,
     "completion": 0.4,
-    "inputCacheRead": 0.03,
+    "inputCacheRead": 0.025,
     "webSearch": 10000,
     "contextLength": 1047576,
     "isFree": false
   },
   "meta-llama/llama-4-maverick": {
     "prompt": 0.2,
-    "completion": 0.8,
+    "completion": 0.696,
     "contextLength": 1048576,
     "isFree": false
   },
